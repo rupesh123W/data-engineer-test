@@ -2,8 +2,8 @@
 This is for prospective data engineers interviewing at Holman.
 
 # Directions:
-1. Fork this repo to your personal Github account, or simply pull down the files needed your your exercise.
-2. Complete the below data exercises in the best way you see fit. Here are some potential implementation options:
+1. Fork this repo to your personal Github account.
+2. Complete the below data exercises in the best way you see fit. Your project should be shareable with a link prior to your 2nd round interview. Here are some potential implementation options:
 
 - Develop within a PySpark Project: https://github.com/AlexIoannides/pyspark-example-project 
 - Use a Jupyter notebook: https://jupyter.org/ or https://colab.google/ 
