@@ -28,3 +28,22 @@ Transform one or both of the olympics/countries tables to facilitate a join acro
 
 1. Normalize the data by applying a foreign key(s) to one/both tables. The key should be unique to represent 1 country, and ensure no cartesian joins occur. (We are aware that no true key exists, and an artificial key(s) will need to be produced)
 2. Transform the 2 data objects via denormalization, and deliver 1 consummable artifact in the form of a table, parquet, or something query-able.
+## ⚙️ Setup & Run
+
+### 1. Install PySpark
+```bash
+pip install pyspark
+
+### 2. Run Pipelines
+
+From the repo root:
+
+```bash
+# Olympics dataset
+spark-submit solution/olympics_pipeline.py
+
+# Countries dataset
+spark-submit solution/countries_pipeline.py
+
+# Combined dataset
+spark-submit solution/combined_pipeline.py
