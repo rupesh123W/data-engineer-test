@@ -1,38 +1,63 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructType, StructField, StringType, DoubleType, IntegerType
 import os
+import pandas as pd
+from pyspark.sql.functions import trim, upper
 
 def main():
-    spark = SparkSession.builder.appName("CountriesPipeline").getOrCreate()
+    # ✅ Build Spark session with Windows-safe configs
+    spark = (
+        SparkSession.builder
+        .appName("CountriesHealthPipeline")
+        .config("spark.hadoop.hadoop.native.io", "false")
+        .config("spark.hadoop.fs.file.impl", "org.apache.hadoop.fs.RawLocalFileSystem")
+        .config("mapreduce.fileoutputcommitter.algorithm.version", "2")
+        .getOrCreate()
+    )
 
-    input_path = "datasets/countries/countries of the world.csv"
-    output_path = "solution/output/countries.parquet"
+    print("Spark Version:", spark.version)
+
+    # ✅ Absolute input & output paths
+    base_dir = r"C:\Users\Rupesh.shelar\data-engineer-test\datasets"
+    input_dir = os.path.join(base_dir, "countries_health")
+    output_path = os.path.join(base_dir, "solution", "output", "countries_health.parquet")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    # Define schema (simplified to main columns)
-    schema = StructType([
-        StructField("Country", StringType(), True),
-        StructField("Population", IntegerType(), True),
-        StructField("Area", IntegerType(), True),
-        StructField("GDP", DoubleType(), True),
-        StructField("Literacy", DoubleType(), True),
-        StructField("Phones", DoubleType(), True),
-        StructField("Birthrate", DoubleType(), True),
-        StructField("Deathrate", DoubleType(), True)
-    ])
+    # ✅ Read CSVs with pandas
+    all_pdfs = []
+    for file in os.listdir(input_dir):
+        if file.lower().endswith(".csv"):   # ✅ only CSV files
+            fpath = os.path.join(input_dir, file)
+            print(f"Reading {fpath}")
+            pdf = pd.read_csv(fpath)
+            pdf["SourceFile"] = file
+            all_pdfs.append(pdf)
 
-    # Read CSV
-    df = spark.read.option("header", True).schema(schema).csv(input_path)
+    if not all_pdfs:
+        raise FileNotFoundError(f"No CSV files in {input_dir}")
 
-    # Clean country names
-    df = df.withColumn("Country", df["Country"].trim())
+    combined_pdf = pd.concat(all_pdfs, ignore_index=True)
 
-    # Show preview
-    df.show(10, truncate=False)
+    # ✅ Normalize column names
+    combined_pdf.columns = [c.strip().replace(" ", "_").lower() for c in combined_pdf.columns]
 
-    # Save as Parquet
-    df.write.mode("overwrite").parquet(output_path)
-    print(f"Countries dataset saved to {output_path} with {df.count()} rows.")
+    # ✅ Create Spark DataFrame
+    df = spark.createDataFrame(combined_pdf)
+    if "country" in df.columns:
+        df = df.withColumn("country", trim(df["country"]))
+        df = df.withColumn("CountryKey", upper(trim(df["country"])))
+
+    # ✅ Show ALL rows in DataFrame
+    print("\n=== All Countries Health Data ===")
+    df.show(df.count(), truncate=False)
+
+    # ✅ Write to a SINGLE parquet file
+    df.coalesce(1).write.mode("overwrite").parquet(output_path)
+    print(f"\nCountries Health dataset saved to {output_path} with {df.count()} rows (single file)")
+
+    # ✅ Read back Parquet and show ALL rows
+    print("\n=== All Data from Parquet Output ===")
+    df_parquet = spark.read.parquet(output_path)
+    df_parquet.show(df_parquet.count(), truncate=False)
 
     spark.stop()
 
