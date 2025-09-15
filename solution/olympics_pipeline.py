@@ -16,35 +16,21 @@ def main():
         .getOrCreate()
     )
 
-<<<<<<< HEAD
-    # Absolute input & output paths
-    base_dir = "C:/Users/Rupesh.shelar/data-engineer-test/datasets"
-=======
     print("Spark Version:", spark.version)
 
-    # Paths
+    # ✅ Absolute input & output paths
     base_dir = r"C:\Users\Rupesh.shelar\data-engineer-test\datasets"
->>>>>>> 9c6e174 (Add Olympics pipeline code)
     input_dir = os.path.join(base_dir, "olympics")
-    output_path = os.path.join(base_dir, "solution/output/olympics.parquet")
+    output_path = os.path.join(base_dir, "solution", "output", "olympics.parquet")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    # Read CSVs with pandas
+    # ✅ Read CSVs with pandas
     all_pdfs = []
     for file in os.listdir(input_dir):
-<<<<<<< HEAD
-        if file.endswith(".xlsx"):
-            fpath = os.path.join(input_dir, file)
-            print(f"Reading: {fpath}")
-            pdf = pd.read_excel(fpath)
-
-            # Add metadata: Source file + Year from filename
-=======
         if file.lower().endswith(".csv"):
             fpath = os.path.join(input_dir, file)
             print(f"Reading {fpath}")
             pdf = pd.read_csv(fpath)
->>>>>>> 9c6e174 (Add Olympics pipeline code)
             pdf["SourceFile"] = file
             match = re.search(r"(\d{4})", file)
             pdf["Year"] = int(match.group(1)) if match else None
@@ -55,6 +41,7 @@ def main():
 
     combined_pdf = pd.concat(all_pdfs, ignore_index=True)
 
+    #  Schema definition
     schema = StructType([
         StructField("Country", StringType(), True),
         StructField("Gold", IntegerType(), True),
@@ -65,7 +52,7 @@ def main():
         StructField("Year", IntegerType(), True),
     ])
 
-    # Create Spark DataFrame
+    #  Create Spark DataFrame
     df = spark.createDataFrame(combined_pdf, schema=schema)
     df = df.withColumn("Country", trim(df["Country"]))
 
@@ -73,7 +60,7 @@ def main():
     print("\n=== All Data from CSVs ===")
     df.show(df.count(), truncate=False)
 
-    #  Write a SINGLE parquet file
+    #  Write to a SINGLE parquet file
     df.coalesce(1).write.mode("overwrite").parquet(output_path)
     print(f"\nOlympics dataset saved to {output_path} with {df.count()} rows (single file)")
 
