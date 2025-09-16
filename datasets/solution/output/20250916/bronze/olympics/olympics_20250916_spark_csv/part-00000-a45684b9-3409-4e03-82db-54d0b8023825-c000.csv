@@ -1,0 +1,793 @@
+NOC,Gold,Silver,Bronze,Total,source_file
+USA,36,39,26,101,Athens 2004 Olympics Nations Medals.csv
+CHN,32,17,15,64,Athens 2004 Olympics Nations Medals.csv
+RUS,28,26,36,90,Athens 2004 Olympics Nations Medals.csv
+AUS,17,16,17,50,Athens 2004 Olympics Nations Medals.csv
+JPN,16,9,12,37,Athens 2004 Olympics Nations Medals.csv
+GER,13,16,20,49,Athens 2004 Olympics Nations Medals.csv
+FRA,11,9,13,33,Athens 2004 Olympics Nations Medals.csv
+ITA,10,11,11,32,Athens 2004 Olympics Nations Medals.csv
+KOR,9,12,9,30,Athens 2004 Olympics Nations Medals.csv
+GBR,9,9,12,30,Athens 2004 Olympics Nations Medals.csv
+CUB,9,7,11,27,Athens 2004 Olympics Nations Medals.csv
+HUN,8,6,3,17,Athens 2004 Olympics Nations Medals.csv
+UKR,8,5,9,22,Athens 2004 Olympics Nations Medals.csv
+ROU,8,5,6,19,Athens 2004 Olympics Nations Medals.csv
+GRE,6,6,4,16,Athens 2004 Olympics Nations Medals.csv
+BRA,5,2,3,10,Athens 2004 Olympics Nations Medals.csv
+NOR,5,0,1,6,Athens 2004 Olympics Nations Medals.csv
+NED,4,9,9,22,Athens 2004 Olympics Nations Medals.csv
+SWE,4,2,1,7,Athens 2004 Olympics Nations Medals.csv
+ESP,3,11,6,20,Athens 2004 Olympics Nations Medals.csv
+CAN,3,6,3,12,Athens 2004 Olympics Nations Medals.csv
+TUR,3,4,4,11,Athens 2004 Olympics Nations Medals.csv
+POL,3,2,5,10,Athens 2004 Olympics Nations Medals.csv
+NZL,3,2,0,5,Athens 2004 Olympics Nations Medals.csv
+THA,3,1,4,8,Athens 2004 Olympics Nations Medals.csv
+BLR,2,5,7,14,Athens 2004 Olympics Nations Medals.csv
+AUT,2,4,1,7,Athens 2004 Olympics Nations Medals.csv
+ETH,2,3,2,7,Athens 2004 Olympics Nations Medals.csv
+IRI,2,2,2,6,Athens 2004 Olympics Nations Medals.csv
+SVK,2,2,2,6,Athens 2004 Olympics Nations Medals.csv
+TPE,2,2,1,5,Athens 2004 Olympics Nations Medals.csv
+GEO,2,2,0,4,Athens 2004 Olympics Nations Medals.csv
+BUL,2,1,9,12,Athens 2004 Olympics Nations Medals.csv
+DEN,2,1,5,8,Athens 2004 Olympics Nations Medals.csv
+UZB,2,1,2,5,Athens 2004 Olympics Nations Medals.csv
+JAM,2,1,2,5,Athens 2004 Olympics Nations Medals.csv
+MAR,2,1,0,3,Athens 2004 Olympics Nations Medals.csv
+ARG,2,0,4,6,Athens 2004 Olympics Nations Medals.csv
+CHI,2,0,1,3,Athens 2004 Olympics Nations Medals.csv
+KAZ,1,4,3,8,Athens 2004 Olympics Nations Medals.csv
+KEN,1,4,2,7,Athens 2004 Olympics Nations Medals.csv
+CZE,1,3,5,9,Athens 2004 Olympics Nations Medals.csv
+RSA,1,3,2,6,Athens 2004 Olympics Nations Medals.csv
+CRO,1,2,2,5,Athens 2004 Olympics Nations Medals.csv
+LTU,1,2,0,3,Athens 2004 Olympics Nations Medals.csv
+SUI,1,1,3,5,Athens 2004 Olympics Nations Medals.csv
+EGY,1,1,3,5,Athens 2004 Olympics Nations Medals.csv
+INA,1,1,2,4,Athens 2004 Olympics Nations Medals.csv
+ZIM,1,1,1,3,Athens 2004 Olympics Nations Medals.csv
+AZE,1,0,4,5,Athens 2004 Olympics Nations Medals.csv
+BEL,1,0,2,3,Athens 2004 Olympics Nations Medals.csv
+ISR,1,0,1,2,Athens 2004 Olympics Nations Medals.csv
+BAH,1,0,1,2,Athens 2004 Olympics Nations Medals.csv
+DOM,1,0,0,1,Athens 2004 Olympics Nations Medals.csv
+CMR,1,0,0,1,Athens 2004 Olympics Nations Medals.csv
+UAE,1,0,0,1,Athens 2004 Olympics Nations Medals.csv
+PRK,0,4,1,5,Athens 2004 Olympics Nations Medals.csv
+LAT,0,4,0,4,Athens 2004 Olympics Nations Medals.csv
+MEX,0,3,1,4,Athens 2004 Olympics Nations Medals.csv
+POR,0,2,1,3,Athens 2004 Olympics Nations Medals.csv
+FIN,0,2,0,2,Athens 2004 Olympics Nations Medals.csv
+SCG,0,2,0,2,Athens 2004 Olympics Nations Medals.csv
+SLO,0,1,3,4,Athens 2004 Olympics Nations Medals.csv
+EST,0,1,2,3,Athens 2004 Olympics Nations Medals.csv
+HKG,0,1,0,1,Athens 2004 Olympics Nations Medals.csv
+IND,0,1,0,1,Athens 2004 Olympics Nations Medals.csv
+PAR,0,1,0,1,Athens 2004 Olympics Nations Medals.csv
+COL,0,0,2,2,Athens 2004 Olympics Nations Medals.csv
+NGR,0,0,2,2,Athens 2004 Olympics Nations Medals.csv
+VEN,0,0,2,2,Athens 2004 Olympics Nations Medals.csv
+SYR,0,0,1,1,Athens 2004 Olympics Nations Medals.csv
+TTO,0,0,1,1,Athens 2004 Olympics Nations Medals.csv
+ERI,0,0,1,1,Athens 2004 Olympics Nations Medals.csv
+MGL,0,0,1,1,Athens 2004 Olympics Nations Medals.csv
+USA,44,32,25,101,Atlanta 1996 Olympics Nations Medals.csv
+RUS,26,21,16,63,Atlanta 1996 Olympics Nations Medals.csv
+GER,20,18,27,65,Atlanta 1996 Olympics Nations Medals.csv
+CHN,16,22,12,50,Atlanta 1996 Olympics Nations Medals.csv
+FRA,15,7,15,37,Atlanta 1996 Olympics Nations Medals.csv
+ITA,13,10,12,35,Atlanta 1996 Olympics Nations Medals.csv
+AUS,9,9,23,41,Atlanta 1996 Olympics Nations Medals.csv
+CUB,9,8,8,25,Atlanta 1996 Olympics Nations Medals.csv
+UKR,9,2,12,23,Atlanta 1996 Olympics Nations Medals.csv
+KOR,7,15,5,27,Atlanta 1996 Olympics Nations Medals.csv
+POL,7,5,5,17,Atlanta 1996 Olympics Nations Medals.csv
+HUN,7,4,10,21,Atlanta 1996 Olympics Nations Medals.csv
+ESP,5,6,6,17,Atlanta 1996 Olympics Nations Medals.csv
+ROU,4,7,9,20,Atlanta 1996 Olympics Nations Medals.csv
+NED,4,5,10,19,Atlanta 1996 Olympics Nations Medals.csv
+GRE,4,4,0,8,Atlanta 1996 Olympics Nations Medals.csv
+CZE,4,3,4,11,Atlanta 1996 Olympics Nations Medals.csv
+SUI,4,3,0,7,Atlanta 1996 Olympics Nations Medals.csv
+DEN,4,1,1,6,Atlanta 1996 Olympics Nations Medals.csv
+TUR,4,1,1,6,Atlanta 1996 Olympics Nations Medals.csv
+CAN,3,11,8,22,Atlanta 1996 Olympics Nations Medals.csv
+BUL,3,7,5,15,Atlanta 1996 Olympics Nations Medals.csv
+JPN,3,6,5,14,Atlanta 1996 Olympics Nations Medals.csv
+KAZ,3,4,4,11,Atlanta 1996 Olympics Nations Medals.csv
+BRA,3,3,9,15,Atlanta 1996 Olympics Nations Medals.csv
+NZL,3,2,1,6,Atlanta 1996 Olympics Nations Medals.csv
+RSA,3,1,1,5,Atlanta 1996 Olympics Nations Medals.csv
+IRL,3,0,1,4,Atlanta 1996 Olympics Nations Medals.csv
+SWE,2,4,2,8,Atlanta 1996 Olympics Nations Medals.csv
+NOR,2,2,3,7,Atlanta 1996 Olympics Nations Medals.csv
+BEL,2,2,2,6,Atlanta 1996 Olympics Nations Medals.csv
+NGR,2,1,3,6,Atlanta 1996 Olympics Nations Medals.csv
+PRK,2,1,2,5,Atlanta 1996 Olympics Nations Medals.csv
+ETH,2,0,1,3,Atlanta 1996 Olympics Nations Medals.csv
+ALG,2,0,1,3,Atlanta 1996 Olympics Nations Medals.csv
+GBR,1,8,6,15,Atlanta 1996 Olympics Nations Medals.csv
+BLR,1,6,8,15,Atlanta 1996 Olympics Nations Medals.csv
+KEN,1,4,3,8,Atlanta 1996 Olympics Nations Medals.csv
+JAM,1,3,2,6,Atlanta 1996 Olympics Nations Medals.csv
+FIN,1,2,1,4,Atlanta 1996 Olympics Nations Medals.csv
+YUG,1,1,2,4,Atlanta 1996 Olympics Nations Medals.csv
+INA,1,1,2,4,Atlanta 1996 Olympics Nations Medals.csv
+SVK,1,1,1,3,Atlanta 1996 Olympics Nations Medals.csv
+IRI,1,1,1,3,Atlanta 1996 Olympics Nations Medals.csv
+CRO,1,1,0,2,Atlanta 1996 Olympics Nations Medals.csv
+ARM,1,1,0,2,Atlanta 1996 Olympics Nations Medals.csv
+POR,1,0,1,2,Atlanta 1996 Olympics Nations Medals.csv
+THA,1,0,1,2,Atlanta 1996 Olympics Nations Medals.csv
+HKG,1,0,0,1,Atlanta 1996 Olympics Nations Medals.csv
+CRC,1,0,0,1,Atlanta 1996 Olympics Nations Medals.csv
+BDI,1,0,0,1,Atlanta 1996 Olympics Nations Medals.csv
+SYR,1,0,0,1,Atlanta 1996 Olympics Nations Medals.csv
+ECU,1,0,0,1,Atlanta 1996 Olympics Nations Medals.csv
+ARG,0,2,1,3,Atlanta 1996 Olympics Nations Medals.csv
+SLO,0,2,0,2,Atlanta 1996 Olympics Nations Medals.csv
+NAM,0,2,0,2,Atlanta 1996 Olympics Nations Medals.csv
+AUT,0,1,2,3,Atlanta 1996 Olympics Nations Medals.csv
+UZB,0,1,1,2,Atlanta 1996 Olympics Nations Medals.csv
+MAS,0,1,1,2,Atlanta 1996 Olympics Nations Medals.csv
+MDA,0,1,1,2,Atlanta 1996 Olympics Nations Medals.csv
+PHI,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+BAH,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+ZAM,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+AZE,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+LAT,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+TPE,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+TGA,0,1,0,1,Atlanta 1996 Olympics Nations Medals.csv
+GEO,0,0,2,2,Atlanta 1996 Olympics Nations Medals.csv
+TTO,0,0,2,2,Atlanta 1996 Olympics Nations Medals.csv
+MAR,0,0,2,2,Atlanta 1996 Olympics Nations Medals.csv
+TUN,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+UGA,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+LTU,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+MEX,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+MGL,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+IND,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+MOZ,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+PUR,0,0,1,1,Atlanta 1996 Olympics Nations Medals.csv
+NOR,16,8,13,37,beijing_2022_Olympics_Nations_Medals.csv
+GER,12,10,5,27,beijing_2022_Olympics_Nations_Medals.csv
+USA,8,10,7,25,beijing_2022_Olympics_Nations_Medals.csv
+CHN,9,4,2,15,beijing_2022_Olympics_Nations_Medals.csv
+SWE,8,5,5,18,beijing_2022_Olympics_Nations_Medals.csv
+NED,8,5,4,17,beijing_2022_Olympics_Nations_Medals.csv
+AUT,7,7,4,18,beijing_2022_Olympics_Nations_Medals.csv
+SUI,7,2,6,15,beijing_2022_Olympics_Nations_Medals.csv
+ROC,6,12,14,32,beijing_2022_Olympics_Nations_Medals.csv
+FRA,5,7,2,14,beijing_2022_Olympics_Nations_Medals.csv
+CAN,4,8,14,26,beijing_2022_Olympics_Nations_Medals.csv
+JPN,3,6,9,18,beijing_2022_Olympics_Nations_Medals.csv
+ITA,2,7,8,17,beijing_2022_Olympics_Nations_Medals.csv
+KOR,2,5,2,9,beijing_2022_Olympics_Nations_Medals.csv
+SLO,2,3,2,7,beijing_2022_Olympics_Nations_Medals.csv
+FIN,2,2,4,8,beijing_2022_Olympics_Nations_Medals.csv
+NZL,2,1,0,3,beijing_2022_Olympics_Nations_Medals.csv
+AUS,1,2,1,4,beijing_2022_Olympics_Nations_Medals.csv
+GBR,1,1,0,2,beijing_2022_Olympics_Nations_Medals.csv
+HUN,1,0,2,3,beijing_2022_Olympics_Nations_Medals.csv
+CZE,1,0,1,2,beijing_2022_Olympics_Nations_Medals.csv
+SVK,1,0,1,2,beijing_2022_Olympics_Nations_Medals.csv
+BLR,0,2,0,2,beijing_2022_Olympics_Nations_Medals.csv
+ESP,0,1,0,1,beijing_2022_Olympics_Nations_Medals.csv
+UKR,0,1,0,1,beijing_2022_Olympics_Nations_Medals.csv
+BEL,0,1,0,1,beijing_2022_Olympics_Nations_Medals.csv
+EST,0,0,1,1,beijing_2022_Olympics_Nations_Medals.csv
+LVA,0,0,1,1,beijing_2022_Olympics_Nations_Medals.csv
+POL,0,0,1,1,beijing_2022_Olympics_Nations_Medals.csv
+RUS,11,8,4,23,Lillehammer 1994 Olympics Nations Medals.csv
+NOR,10,11,5,26,Lillehammer 1994 Olympics Nations Medals.csv
+GER,9,7,8,24,Lillehammer 1994 Olympics Nations Medals.csv
+ITA,7,5,8,20,Lillehammer 1994 Olympics Nations Medals.csv
+USA,6,5,2,13,Lillehammer 1994 Olympics Nations Medals.csv
+KOR,4,1,1,6,Lillehammer 1994 Olympics Nations Medals.csv
+CAN,3,6,4,13,Lillehammer 1994 Olympics Nations Medals.csv
+SUI,3,4,2,9,Lillehammer 1994 Olympics Nations Medals.csv
+AUT,2,3,4,9,Lillehammer 1994 Olympics Nations Medals.csv
+SWE,2,1,0,3,Lillehammer 1994 Olympics Nations Medals.csv
+JPN,1,2,2,5,Lillehammer 1994 Olympics Nations Medals.csv
+KAZ,1,2,0,3,Lillehammer 1994 Olympics Nations Medals.csv
+UKR,1,0,1,2,Lillehammer 1994 Olympics Nations Medals.csv
+UZB,1,0,0,1,Lillehammer 1994 Olympics Nations Medals.csv
+BLR,0,2,0,2,Lillehammer 1994 Olympics Nations Medals.csv
+FIN,0,1,5,6,Lillehammer 1994 Olympics Nations Medals.csv
+FRA,0,1,4,5,Lillehammer 1994 Olympics Nations Medals.csv
+NED,0,1,3,4,Lillehammer 1994 Olympics Nations Medals.csv
+CHN,0,1,2,3,Lillehammer 1994 Olympics Nations Medals.csv
+SLO,0,0,3,3,Lillehammer 1994 Olympics Nations Medals.csv
+GBR,0,0,2,2,Lillehammer 1994 Olympics Nations Medals.csv
+AUS,0,0,1,1,Lillehammer 1994 Olympics Nations Medals.csv
+USA,48,26,30,104,London 2012 Olympics Nations Medals.csv
+CHN,39,31,22,92,London 2012 Olympics Nations Medals.csv
+GBR,29,18,18,65,London 2012 Olympics Nations Medals.csv
+RUS,18,21,26,65,London 2012 Olympics Nations Medals.csv
+KOR,13,9,9,31,London 2012 Olympics Nations Medals.csv
+GER,11,20,13,44,London 2012 Olympics Nations Medals.csv
+FRA,11,11,13,35,London 2012 Olympics Nations Medals.csv
+AUS,8,15,12,35,London 2012 Olympics Nations Medals.csv
+ITA,8,9,11,28,London 2012 Olympics Nations Medals.csv
+HUN,8,4,6,18,London 2012 Olympics Nations Medals.csv
+JPN,7,14,17,38,London 2012 Olympics Nations Medals.csv
+IRI,7,5,1,13,London 2012 Olympics Nations Medals.csv
+NED,6,6,8,20,London 2012 Olympics Nations Medals.csv
+NZL,6,2,5,13,London 2012 Olympics Nations Medals.csv
+UKR,5,4,10,19,London 2012 Olympics Nations Medals.csv
+CUB,5,3,7,15,London 2012 Olympics Nations Medals.csv
+ESP,4,10,6,20,London 2012 Olympics Nations Medals.csv
+JAM,4,5,4,13,London 2012 Olympics Nations Medals.csv
+CZE,4,4,3,11,London 2012 Olympics Nations Medals.csv
+RSA,4,1,1,6,London 2012 Olympics Nations Medals.csv
+PRK,4,0,3,7,London 2012 Olympics Nations Medals.csv
+BRA,3,5,9,17,London 2012 Olympics Nations Medals.csv
+KAZ,3,2,6,11,London 2012 Olympics Nations Medals.csv
+POL,3,2,6,11,London 2012 Olympics Nations Medals.csv
+ETH,3,2,3,8,London 2012 Olympics Nations Medals.csv
+CRO,3,1,2,6,London 2012 Olympics Nations Medals.csv
+CAN,2,6,10,18,London 2012 Olympics Nations Medals.csv
+BLR,2,5,3,10,London 2012 Olympics Nations Medals.csv
+KEN,2,4,7,13,London 2012 Olympics Nations Medals.csv
+DEN,2,4,3,9,London 2012 Olympics Nations Medals.csv
+ROU,2,4,1,7,London 2012 Olympics Nations Medals.csv
+AZE,2,2,5,9,London 2012 Olympics Nations Medals.csv
+SUI,2,2,0,4,London 2012 Olympics Nations Medals.csv
+NOR,2,1,1,4,London 2012 Olympics Nations Medals.csv
+LTU,2,0,3,5,London 2012 Olympics Nations Medals.csv
+TUN,2,0,1,3,London 2012 Olympics Nations Medals.csv
+SWE,1,4,3,8,London 2012 Olympics Nations Medals.csv
+COL,1,3,5,9,London 2012 Olympics Nations Medals.csv
+MEX,1,3,4,8,London 2012 Olympics Nations Medals.csv
+GEO,1,2,3,6,London 2012 Olympics Nations Medals.csv
+IRL,1,1,4,6,London 2012 Olympics Nations Medals.csv
+ARG,1,1,2,4,London 2012 Olympics Nations Medals.csv
+SLO,1,1,2,4,London 2012 Olympics Nations Medals.csv
+TTO,1,1,2,4,London 2012 Olympics Nations Medals.csv
+SRB,1,1,2,4,London 2012 Olympics Nations Medals.csv
+TUR,1,1,1,3,London 2012 Olympics Nations Medals.csv
+DOM,1,1,0,2,London 2012 Olympics Nations Medals.csv
+TPE,1,0,1,2,London 2012 Olympics Nations Medals.csv
+LAT,1,0,1,2,London 2012 Olympics Nations Medals.csv
+BAH,1,0,0,1,London 2012 Olympics Nations Medals.csv
+ALG,1,0,0,1,London 2012 Olympics Nations Medals.csv
+GRN,1,0,0,1,London 2012 Olympics Nations Medals.csv
+VEN,1,0,0,1,London 2012 Olympics Nations Medals.csv
+BRN,1,0,0,1,London 2012 Olympics Nations Medals.csv
+UGA,1,0,0,1,London 2012 Olympics Nations Medals.csv
+EGY,0,3,1,4,London 2012 Olympics Nations Medals.csv
+IND,0,2,4,6,London 2012 Olympics Nations Medals.csv
+MGL,0,2,3,5,London 2012 Olympics Nations Medals.csv
+THA,0,2,2,4,London 2012 Olympics Nations Medals.csv
+INA,0,2,1,3,London 2012 Olympics Nations Medals.csv
+BUL,0,2,1,3,London 2012 Olympics Nations Medals.csv
+FIN,0,2,1,3,London 2012 Olympics Nations Medals.csv
+SVK,0,1,3,4,London 2012 Olympics Nations Medals.csv
+BEL,0,1,2,3,London 2012 Olympics Nations Medals.csv
+MAS,0,1,1,2,London 2012 Olympics Nations Medals.csv
+QAT,0,1,1,2,London 2012 Olympics Nations Medals.csv
+ARM,0,1,1,2,London 2012 Olympics Nations Medals.csv
+EST,0,1,1,2,London 2012 Olympics Nations Medals.csv
+PUR,0,1,1,2,London 2012 Olympics Nations Medals.csv
+GUA,0,1,0,1,London 2012 Olympics Nations Medals.csv
+CYP,0,1,0,1,London 2012 Olympics Nations Medals.csv
+BOT,0,1,0,1,London 2012 Olympics Nations Medals.csv
+POR,0,1,0,1,London 2012 Olympics Nations Medals.csv
+MNE,0,1,0,1,London 2012 Olympics Nations Medals.csv
+GAB,0,1,0,1,London 2012 Olympics Nations Medals.csv
+UZB,0,0,3,3,London 2012 Olympics Nations Medals.csv
+SIN,0,0,2,2,London 2012 Olympics Nations Medals.csv
+GRE,0,0,2,2,London 2012 Olympics Nations Medals.csv
+VIE,0,0,1,1,London 2012 Olympics Nations Medals.csv
+MAR,0,0,1,1,London 2012 Olympics Nations Medals.csv
+TJK,0,0,1,1,London 2012 Olympics Nations Medals.csv
+KUW,0,0,1,1,London 2012 Olympics Nations Medals.csv
+HKG,0,0,1,1,London 2012 Olympics Nations Medals.csv
+CMR,0,0,1,1,London 2012 Olympics Nations Medals.csv
+KSA,0,0,1,1,London 2012 Olympics Nations Medals.csv
+AFG,0,0,1,1,London 2012 Olympics Nations Medals.csv
+GER,12,9,8,29,Nagano 1998 Olympics Nations Medals.csv
+NOR,10,10,5,25,Nagano 1998 Olympics Nations Medals.csv
+RUS,9,6,3,18,Nagano 1998 Olympics Nations Medals.csv
+CAN,6,5,4,15,Nagano 1998 Olympics Nations Medals.csv
+USA,6,3,4,13,Nagano 1998 Olympics Nations Medals.csv
+NED,5,4,2,11,Nagano 1998 Olympics Nations Medals.csv
+JPN,5,1,4,10,Nagano 1998 Olympics Nations Medals.csv
+AUT,3,5,9,17,Nagano 1998 Olympics Nations Medals.csv
+KOR,3,1,2,6,Nagano 1998 Olympics Nations Medals.csv
+ITA,2,6,2,10,Nagano 1998 Olympics Nations Medals.csv
+FIN,2,4,6,12,Nagano 1998 Olympics Nations Medals.csv
+SUI,2,2,3,7,Nagano 1998 Olympics Nations Medals.csv
+FRA,2,1,5,8,Nagano 1998 Olympics Nations Medals.csv
+CZE,1,1,1,3,Nagano 1998 Olympics Nations Medals.csv
+BUL,1,0,0,1,Nagano 1998 Olympics Nations Medals.csv
+CHN,0,6,2,8,Nagano 1998 Olympics Nations Medals.csv
+SWE,0,2,1,3,Nagano 1998 Olympics Nations Medals.csv
+DEN,0,1,0,1,Nagano 1998 Olympics Nations Medals.csv
+UKR,0,1,0,1,Nagano 1998 Olympics Nations Medals.csv
+KAZ,0,0,2,2,Nagano 1998 Olympics Nations Medals.csv
+BLR,0,0,2,2,Nagano 1998 Olympics Nations Medals.csv
+GBR,0,0,1,1,Nagano 1998 Olympics Nations Medals.csv
+BEL,0,0,1,1,Nagano 1998 Olympics Nations Medals.csv
+AUS,0,0,1,1,Nagano 1998 Olympics Nations Medals.csv
+USA,40,44,42,126,Paris 2024 Olympics_Nations Medals.csv
+CHN,40,27,24,91,Paris 2024 Olympics_Nations Medals.csv
+JPN,20,12,13,45,Paris 2024 Olympics_Nations Medals.csv
+AUS,18,19,16,53,Paris 2024 Olympics_Nations Medals.csv
+FRA,16,26,22,64,Paris 2024 Olympics_Nations Medals.csv
+NED,15,7,12,34,Paris 2024 Olympics_Nations Medals.csv
+GBR,14,22,29,65,Paris 2024 Olympics_Nations Medals.csv
+KOR,13,9,10,32,Paris 2024 Olympics_Nations Medals.csv
+ITA,12,13,15,40,Paris 2024 Olympics_Nations Medals.csv
+GER,12,13,8,33,Paris 2024 Olympics_Nations Medals.csv
+NZL,10,7,3,20,Paris 2024 Olympics_Nations Medals.csv
+CAN,9,7,11,27,Paris 2024 Olympics_Nations Medals.csv
+UZB,8,2,3,13,Paris 2024 Olympics_Nations Medals.csv
+HUN,6,7,6,19,Paris 2024 Olympics_Nations Medals.csv
+ESP,5,4,9,18,Paris 2024 Olympics_Nations Medals.csv
+SWE,4,4,3,11,Paris 2024 Olympics_Nations Medals.csv
+KEN,4,2,5,11,Paris 2024 Olympics_Nations Medals.csv
+NOR,4,1,3,8,Paris 2024 Olympics_Nations Medals.csv
+IRL,4,0,3,7,Paris 2024 Olympics_Nations Medals.csv
+BRA,3,7,10,20,Paris 2024 Olympics_Nations Medals.csv
+IRI,3,6,3,12,Paris 2024 Olympics_Nations Medals.csv
+UKR,3,5,4,12,Paris 2024 Olympics_Nations Medals.csv
+ROU,3,4,2,9,Paris 2024 Olympics_Nations Medals.csv
+GEO,3,3,1,7,Paris 2024 Olympics_Nations Medals.csv
+BEL,3,1,6,10,Paris 2024 Olympics_Nations Medals.csv
+BUL,3,1,3,7,Paris 2024 Olympics_Nations Medals.csv
+SRB,3,1,1,5,Paris 2024 Olympics_Nations Medals.csv
+CZE,3,0,2,5,Paris 2024 Olympics_Nations Medals.csv
+DEN,2,2,5,9,Paris 2024 Olympics_Nations Medals.csv
+CRO,2,2,3,7,Paris 2024 Olympics_Nations Medals.csv
+AZE,2,2,3,7,Paris 2024 Olympics_Nations Medals.csv
+CUB,2,1,6,9,Paris 2024 Olympics_Nations Medals.csv
+BRN,2,1,1,4,Paris 2024 Olympics_Nations Medals.csv
+SLO,2,1,0,3,Paris 2024 Olympics_Nations Medals.csv
+TPE,2,0,5,7,Paris 2024 Olympics_Nations Medals.csv
+AUT,2,0,3,5,Paris 2024 Olympics_Nations Medals.csv
+PHI,2,0,2,4,Paris 2024 Olympics_Nations Medals.csv
+HKG,2,0,2,4,Paris 2024 Olympics_Nations Medals.csv
+INA,2,0,1,3,Paris 2024 Olympics_Nations Medals.csv
+ALG,2,0,1,3,Paris 2024 Olympics_Nations Medals.csv
+ISR,1,5,1,7,Paris 2024 Olympics_Nations Medals.csv
+POL,1,4,5,10,Paris 2024 Olympics_Nations Medals.csv
+KAZ,1,3,3,7,Paris 2024 Olympics_Nations Medals.csv
+JAM,1,3,2,6,Paris 2024 Olympics_Nations Medals.csv
+THA,1,3,2,6,Paris 2024 Olympics_Nations Medals.csv
+RSA,1,3,2,6,Paris 2024 Olympics_Nations Medals.csv
+AIN,1,3,1,5,Paris 2024 Olympics_Nations Medals.csv
+ETH,1,3,0,4,Paris 2024 Olympics_Nations Medals.csv
+SUI,1,2,5,8,Paris 2024 Olympics_Nations Medals.csv
+ECU,1,2,2,5,Paris 2024 Olympics_Nations Medals.csv
+POR,1,2,1,4,Paris 2024 Olympics_Nations Medals.csv
+GRE,1,1,6,8,Paris 2024 Olympics_Nations Medals.csv
+ARG,1,1,1,3,Paris 2024 Olympics_Nations Medals.csv
+EGY,1,1,1,3,Paris 2024 Olympics_Nations Medals.csv
+TUN,1,1,1,3,Paris 2024 Olympics_Nations Medals.csv
+LCA,1,1,0,2,Paris 2024 Olympics_Nations Medals.csv
+CHI,1,1,0,2,Paris 2024 Olympics_Nations Medals.csv
+UGA,1,1,0,2,Paris 2024 Olympics_Nations Medals.csv
+BOT,1,1,0,2,Paris 2024 Olympics_Nations Medals.csv
+DOM,1,0,1,2,Paris 2024 Olympics_Nations Medals.csv
+MAR,1,0,1,2,Paris 2024 Olympics_Nations Medals.csv
+PAK,1,0,0,1,Paris 2024 Olympics_Nations Medals.csv
+DMA,1,0,0,1,Paris 2024 Olympics_Nations Medals.csv
+TUR,0,3,5,8,Paris 2024 Olympics_Nations Medals.csv
+MEX,0,3,2,5,Paris 2024 Olympics_Nations Medals.csv
+COL,0,3,1,4,Paris 2024 Olympics_Nations Medals.csv
+ARM,0,3,1,4,Paris 2024 Olympics_Nations Medals.csv
+PRK,0,2,4,6,Paris 2024 Olympics_Nations Medals.csv
+KGZ,0,2,4,6,Paris 2024 Olympics_Nations Medals.csv
+LTU,0,2,2,4,Paris 2024 Olympics_Nations Medals.csv
+IND,0,1,5,6,Paris 2024 Olympics_Nations Medals.csv
+MDA,0,1,3,4,Paris 2024 Olympics_Nations Medals.csv
+KOS,0,1,1,2,Paris 2024 Olympics_Nations Medals.csv
+PAN,0,1,0,1,Paris 2024 Olympics_Nations Medals.csv
+JOR,0,1,0,1,Paris 2024 Olympics_Nations Medals.csv
+CYP,0,1,0,1,Paris 2024 Olympics_Nations Medals.csv
+MGL,0,1,0,1,Paris 2024 Olympics_Nations Medals.csv
+FIJ,0,1,0,1,Paris 2024 Olympics_Nations Medals.csv
+TJK,0,0,3,3,Paris 2024 Olympics_Nations Medals.csv
+ALB,0,0,2,2,Paris 2024 Olympics_Nations Medals.csv
+GRN,0,0,2,2,Paris 2024 Olympics_Nations Medals.csv
+PUR,0,0,2,2,Paris 2024 Olympics_Nations Medals.csv
+MAS,0,0,2,2,Paris 2024 Olympics_Nations Medals.csv
+CPV,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+QAT,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+ZAM,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+SIN,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+CIV,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+ROT,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+PER,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+SVK,0,0,1,1,Paris 2024 Olympics_Nations Medals.csv
+NOR,14,14,11,39,PyeongChang 2018 Olympics Nations Medals.csv
+GER,14,10,7,31,PyeongChang 2018 Olympics Nations Medals.csv
+CAN,11,8,10,29,PyeongChang 2018 Olympics Nations Medals.csv
+USA,9,8,6,23,PyeongChang 2018 Olympics Nations Medals.csv
+NED,8,6,6,20,PyeongChang 2018 Olympics Nations Medals.csv
+SWE,7,6,1,14,PyeongChang 2018 Olympics Nations Medals.csv
+KOR,5,8,4,17,PyeongChang 2018 Olympics Nations Medals.csv
+SUI,5,6,4,15,PyeongChang 2018 Olympics Nations Medals.csv
+FRA,5,4,6,15,PyeongChang 2018 Olympics Nations Medals.csv
+AUT,5,3,6,14,PyeongChang 2018 Olympics Nations Medals.csv
+JPN,4,5,4,13,PyeongChang 2018 Olympics Nations Medals.csv
+ITA,3,2,5,10,PyeongChang 2018 Olympics Nations Medals.csv
+OAR,2,6,9,17,PyeongChang 2018 Olympics Nations Medals.csv
+CZE,2,2,3,7,PyeongChang 2018 Olympics Nations Medals.csv
+BLR,2,1,0,3,PyeongChang 2018 Olympics Nations Medals.csv
+CHN,1,6,2,9,PyeongChang 2018 Olympics Nations Medals.csv
+SVK,1,2,0,3,PyeongChang 2018 Olympics Nations Medals.csv
+FIN,1,1,4,6,PyeongChang 2018 Olympics Nations Medals.csv
+GBR,1,0,4,5,PyeongChang 2018 Olympics Nations Medals.csv
+POL,1,0,1,2,PyeongChang 2018 Olympics Nations Medals.csv
+UKR,1,0,0,1,PyeongChang 2018 Olympics Nations Medals.csv
+HUN,1,0,0,1,PyeongChang 2018 Olympics Nations Medals.csv
+AUS,0,2,1,3,PyeongChang 2018 Olympics Nations Medals.csv
+SLO,0,1,1,2,PyeongChang 2018 Olympics Nations Medals.csv
+BEL,0,1,0,1,PyeongChang 2018 Olympics Nations Medals.csv
+NZL,0,0,2,2,PyeongChang 2018 Olympics Nations Medals.csv
+ESP,0,0,2,2,PyeongChang 2018 Olympics Nations Medals.csv
+KAZ,0,0,1,1,PyeongChang 2018 Olympics Nations Medals.csv
+LIE,0,0,1,1,PyeongChang 2018 Olympics Nations Medals.csv
+LAT,0,0,1,1,PyeongChang 2018 Olympics Nations Medals.csv
+USA,46,37,38,121,Rio 2016 Olympics Nations Medals.csv
+GBR,27,23,17,67,Rio 2016 Olympics Nations Medals.csv
+CHN,26,18,26,70,Rio 2016 Olympics Nations Medals.csv
+RUS,19,17,20,56,Rio 2016 Olympics Nations Medals.csv
+GER,17,10,15,42,Rio 2016 Olympics Nations Medals.csv
+JPN,12,8,21,41,Rio 2016 Olympics Nations Medals.csv
+FRA,10,18,14,42,Rio 2016 Olympics Nations Medals.csv
+KOR,9,3,9,21,Rio 2016 Olympics Nations Medals.csv
+ITA,8,12,8,28,Rio 2016 Olympics Nations Medals.csv
+AUS,8,11,10,29,Rio 2016 Olympics Nations Medals.csv
+NED,8,7,4,19,Rio 2016 Olympics Nations Medals.csv
+HUN,8,3,4,15,Rio 2016 Olympics Nations Medals.csv
+BRA,7,6,6,19,Rio 2016 Olympics Nations Medals.csv
+ESP,7,4,6,17,Rio 2016 Olympics Nations Medals.csv
+KEN,6,6,1,13,Rio 2016 Olympics Nations Medals.csv
+JAM,6,3,2,11,Rio 2016 Olympics Nations Medals.csv
+CRO,5,3,2,10,Rio 2016 Olympics Nations Medals.csv
+CUB,5,2,4,11,Rio 2016 Olympics Nations Medals.csv
+NZL,4,9,5,18,Rio 2016 Olympics Nations Medals.csv
+CAN,4,3,15,22,Rio 2016 Olympics Nations Medals.csv
+UZB,4,2,7,13,Rio 2016 Olympics Nations Medals.csv
+COL,3,2,3,8,Rio 2016 Olympics Nations Medals.csv
+SUI,3,2,2,7,Rio 2016 Olympics Nations Medals.csv
+IRI,3,1,4,8,Rio 2016 Olympics Nations Medals.csv
+GRE,3,1,2,6,Rio 2016 Olympics Nations Medals.csv
+ARG,3,1,0,4,Rio 2016 Olympics Nations Medals.csv
+DEN,2,6,7,15,Rio 2016 Olympics Nations Medals.csv
+SWE,2,6,3,11,Rio 2016 Olympics Nations Medals.csv
+RSA,2,6,2,10,Rio 2016 Olympics Nations Medals.csv
+KAZ,2,5,10,17,Rio 2016 Olympics Nations Medals.csv
+UKR,2,5,4,11,Rio 2016 Olympics Nations Medals.csv
+SRB,2,4,2,8,Rio 2016 Olympics Nations Medals.csv
+POL,2,3,6,11,Rio 2016 Olympics Nations Medals.csv
+PRK,2,3,2,7,Rio 2016 Olympics Nations Medals.csv
+BEL,2,2,2,6,Rio 2016 Olympics Nations Medals.csv
+THA,2,2,2,6,Rio 2016 Olympics Nations Medals.csv
+SVK,2,2,0,4,Rio 2016 Olympics Nations Medals.csv
+GEO,2,1,4,7,Rio 2016 Olympics Nations Medals.csv
+AZE,1,7,10,18,Rio 2016 Olympics Nations Medals.csv
+BLR,1,4,4,9,Rio 2016 Olympics Nations Medals.csv
+TUR,1,3,4,8,Rio 2016 Olympics Nations Medals.csv
+ARM,1,3,0,4,Rio 2016 Olympics Nations Medals.csv
+CZE,1,2,7,10,Rio 2016 Olympics Nations Medals.csv
+ETH,1,2,5,8,Rio 2016 Olympics Nations Medals.csv
+SLO,1,2,1,4,Rio 2016 Olympics Nations Medals.csv
+INA,1,2,0,3,Rio 2016 Olympics Nations Medals.csv
+ROU,1,1,2,4,Rio 2016 Olympics Nations Medals.csv
+BRN,1,1,0,2,Rio 2016 Olympics Nations Medals.csv
+VIE,1,1,0,2,Rio 2016 Olympics Nations Medals.csv
+TPE,1,0,2,3,Rio 2016 Olympics Nations Medals.csv
+IOA,1,0,1,2,Rio 2016 Olympics Nations Medals.csv
+BAH,1,0,1,2,Rio 2016 Olympics Nations Medals.csv
+CIV,1,0,1,2,Rio 2016 Olympics Nations Medals.csv
+KOS,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+TJK,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+FIJ,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+JOR,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+PUR,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+SIN,1,0,0,1,Rio 2016 Olympics Nations Medals.csv
+MAS,0,4,1,5,Rio 2016 Olympics Nations Medals.csv
+MEX,0,3,2,5,Rio 2016 Olympics Nations Medals.csv
+VEN,0,2,1,3,Rio 2016 Olympics Nations Medals.csv
+ALG,0,2,0,2,Rio 2016 Olympics Nations Medals.csv
+IRL,0,2,0,2,Rio 2016 Olympics Nations Medals.csv
+LTU,0,1,3,4,Rio 2016 Olympics Nations Medals.csv
+BUL,0,1,2,3,Rio 2016 Olympics Nations Medals.csv
+MGL,0,1,1,2,Rio 2016 Olympics Nations Medals.csv
+IND,0,1,1,2,Rio 2016 Olympics Nations Medals.csv
+NIG,0,1,0,1,Rio 2016 Olympics Nations Medals.csv
+PHI,0,1,0,1,Rio 2016 Olympics Nations Medals.csv
+QAT,0,1,0,1,Rio 2016 Olympics Nations Medals.csv
+BDI,0,1,0,1,Rio 2016 Olympics Nations Medals.csv
+GRN,0,1,0,1,Rio 2016 Olympics Nations Medals.csv
+NOR,0,0,4,4,Rio 2016 Olympics Nations Medals.csv
+EGY,0,0,3,3,Rio 2016 Olympics Nations Medals.csv
+TUN,0,0,3,3,Rio 2016 Olympics Nations Medals.csv
+NGR,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+DOM,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+EST,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+TTO,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+UAE,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+AUT,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+POR,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+FIN,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+MAR,0,0,1,1,Rio 2016 Olympics Nations Medals.csv
+NOR,13,5,7,25,SaltLakeCity 2002 Olympics Nations Medals.csv
+GER,12,16,8,36,SaltLakeCity 2002 Olympics Nations Medals.csv
+USA,10,13,11,34,SaltLakeCity 2002 Olympics Nations Medals.csv
+CAN,7,3,7,17,SaltLakeCity 2002 Olympics Nations Medals.csv
+RUS,5,4,4,13,SaltLakeCity 2002 Olympics Nations Medals.csv
+FRA,4,5,2,11,SaltLakeCity 2002 Olympics Nations Medals.csv
+ITA,4,4,5,13,SaltLakeCity 2002 Olympics Nations Medals.csv
+FIN,4,2,1,7,SaltLakeCity 2002 Olympics Nations Medals.csv
+NED,3,5,0,8,SaltLakeCity 2002 Olympics Nations Medals.csv
+AUT,3,4,10,17,SaltLakeCity 2002 Olympics Nations Medals.csv
+SUI,3,2,6,11,SaltLakeCity 2002 Olympics Nations Medals.csv
+CRO,3,1,0,4,SaltLakeCity 2002 Olympics Nations Medals.csv
+CHN,2,2,4,8,SaltLakeCity 2002 Olympics Nations Medals.csv
+KOR,2,2,0,4,SaltLakeCity 2002 Olympics Nations Medals.csv
+AUS,2,0,0,2,SaltLakeCity 2002 Olympics Nations Medals.csv
+CZE,1,2,0,3,SaltLakeCity 2002 Olympics Nations Medals.csv
+EST,1,1,1,3,SaltLakeCity 2002 Olympics Nations Medals.csv
+GBR,1,0,1,2,SaltLakeCity 2002 Olympics Nations Medals.csv
+SWE,0,2,5,7,SaltLakeCity 2002 Olympics Nations Medals.csv
+BUL,0,1,2,3,SaltLakeCity 2002 Olympics Nations Medals.csv
+POL,0,1,1,2,SaltLakeCity 2002 Olympics Nations Medals.csv
+JPN,0,1,1,2,SaltLakeCity 2002 Olympics Nations Medals.csv
+BLR,0,0,1,1,SaltLakeCity 2002 Olympics Nations Medals.csv
+SLO,0,0,1,1,SaltLakeCity 2002 Olympics Nations Medals.csv
+RUS,11,9,9,29,Sochi 2014 Olympics Nations Medals.csv
+NOR,11,6,9,26,Sochi 2014 Olympics Nations Medals.csv
+CAN,10,10,5,25,Sochi 2014 Olympics Nations Medals.csv
+USA,9,9,10,28,Sochi 2014 Olympics Nations Medals.csv
+NED,8,7,9,24,Sochi 2014 Olympics Nations Medals.csv
+GER,8,6,5,19,Sochi 2014 Olympics Nations Medals.csv
+SUI,7,2,2,11,Sochi 2014 Olympics Nations Medals.csv
+BLR,5,0,1,6,Sochi 2014 Olympics Nations Medals.csv
+AUT,4,8,5,17,Sochi 2014 Olympics Nations Medals.csv
+FRA,4,4,7,15,Sochi 2014 Olympics Nations Medals.csv
+POL,4,1,1,6,Sochi 2014 Olympics Nations Medals.csv
+CHN,3,4,2,9,Sochi 2014 Olympics Nations Medals.csv
+KOR,3,3,2,8,Sochi 2014 Olympics Nations Medals.csv
+SWE,2,7,6,15,Sochi 2014 Olympics Nations Medals.csv
+CZE,2,4,3,9,Sochi 2014 Olympics Nations Medals.csv
+SLO,2,2,4,8,Sochi 2014 Olympics Nations Medals.csv
+JPN,1,4,3,8,Sochi 2014 Olympics Nations Medals.csv
+FIN,1,3,1,5,Sochi 2014 Olympics Nations Medals.csv
+GBR,1,1,3,5,Sochi 2014 Olympics Nations Medals.csv
+LAT,1,1,3,5,Sochi 2014 Olympics Nations Medals.csv
+UKR,1,1,0,2,Sochi 2014 Olympics Nations Medals.csv
+SVK,1,0,0,1,Sochi 2014 Olympics Nations Medals.csv
+ITA,0,2,7,9,Sochi 2014 Olympics Nations Medals.csv
+AUS,0,2,1,3,Sochi 2014 Olympics Nations Medals.csv
+CRO,0,1,0,1,Sochi 2014 Olympics Nations Medals.csv
+KAZ,0,0,1,1,Sochi 2014 Olympics Nations Medals.csv
+USA,37,24,32,93,Sydney 2000 Olympics Nations Medals.csv
+RUS,32,28,29,89,Sydney 2000 Olympics Nations Medals.csv
+CHN,28,16,14,58,Sydney 2000 Olympics Nations Medals.csv
+AUS,16,25,17,58,Sydney 2000 Olympics Nations Medals.csv
+GER,13,17,26,56,Sydney 2000 Olympics Nations Medals.csv
+FRA,13,14,11,38,Sydney 2000 Olympics Nations Medals.csv
+ITA,13,8,13,34,Sydney 2000 Olympics Nations Medals.csv
+NED,12,9,4,25,Sydney 2000 Olympics Nations Medals.csv
+CUB,11,11,7,29,Sydney 2000 Olympics Nations Medals.csv
+GBR,11,10,7,28,Sydney 2000 Olympics Nations Medals.csv
+ROU,11,6,9,26,Sydney 2000 Olympics Nations Medals.csv
+KOR,8,10,10,28,Sydney 2000 Olympics Nations Medals.csv
+HUN,8,6,3,17,Sydney 2000 Olympics Nations Medals.csv
+POL,6,5,3,14,Sydney 2000 Olympics Nations Medals.csv
+JPN,5,8,5,18,Sydney 2000 Olympics Nations Medals.csv
+BUL,5,6,2,13,Sydney 2000 Olympics Nations Medals.csv
+GRE,4,6,3,13,Sydney 2000 Olympics Nations Medals.csv
+SWE,4,5,3,12,Sydney 2000 Olympics Nations Medals.csv
+NOR,4,3,3,10,Sydney 2000 Olympics Nations Medals.csv
+ETH,4,1,3,8,Sydney 2000 Olympics Nations Medals.csv
+UKR,3,10,10,23,Sydney 2000 Olympics Nations Medals.csv
+KAZ,3,4,0,7,Sydney 2000 Olympics Nations Medals.csv
+BLR,3,3,11,17,Sydney 2000 Olympics Nations Medals.csv
+CAN,3,3,8,14,Sydney 2000 Olympics Nations Medals.csv
+ESP,3,3,5,11,Sydney 2000 Olympics Nations Medals.csv
+TUR,3,0,2,5,Sydney 2000 Olympics Nations Medals.csv
+IRI,3,0,1,4,Sydney 2000 Olympics Nations Medals.csv
+CZE,2,3,3,8,Sydney 2000 Olympics Nations Medals.csv
+KEN,2,3,2,7,Sydney 2000 Olympics Nations Medals.csv
+DEN,2,3,1,6,Sydney 2000 Olympics Nations Medals.csv
+FIN,2,1,1,4,Sydney 2000 Olympics Nations Medals.csv
+AUT,2,1,0,3,Sydney 2000 Olympics Nations Medals.csv
+LTU,2,0,3,5,Sydney 2000 Olympics Nations Medals.csv
+BAH,2,0,1,3,Sydney 2000 Olympics Nations Medals.csv
+AZE,2,0,1,3,Sydney 2000 Olympics Nations Medals.csv
+SLO,2,0,0,2,Sydney 2000 Olympics Nations Medals.csv
+SUI,1,6,2,9,Sydney 2000 Olympics Nations Medals.csv
+INA,1,3,2,6,Sydney 2000 Olympics Nations Medals.csv
+SVK,1,3,1,5,Sydney 2000 Olympics Nations Medals.csv
+MEX,1,2,3,6,Sydney 2000 Olympics Nations Medals.csv
+NGR,1,2,0,3,Sydney 2000 Olympics Nations Medals.csv
+ALG,1,1,3,5,Sydney 2000 Olympics Nations Medals.csv
+UZB,1,1,2,4,Sydney 2000 Olympics Nations Medals.csv
+YUG,1,1,1,3,Sydney 2000 Olympics Nations Medals.csv
+LAT,1,1,1,3,Sydney 2000 Olympics Nations Medals.csv
+NZL,1,0,3,4,Sydney 2000 Olympics Nations Medals.csv
+THA,1,0,2,3,Sydney 2000 Olympics Nations Medals.csv
+EST,1,0,2,3,Sydney 2000 Olympics Nations Medals.csv
+CRO,1,0,1,2,Sydney 2000 Olympics Nations Medals.csv
+CMR,1,0,0,1,Sydney 2000 Olympics Nations Medals.csv
+COL,1,0,0,1,Sydney 2000 Olympics Nations Medals.csv
+MOZ,1,0,0,1,Sydney 2000 Olympics Nations Medals.csv
+BRA,0,6,6,12,Sydney 2000 Olympics Nations Medals.csv
+JAM,0,6,3,9,Sydney 2000 Olympics Nations Medals.csv
+BEL,0,2,3,5,Sydney 2000 Olympics Nations Medals.csv
+RSA,0,2,3,5,Sydney 2000 Olympics Nations Medals.csv
+ARG,0,2,2,4,Sydney 2000 Olympics Nations Medals.csv
+MAR,0,1,4,5,Sydney 2000 Olympics Nations Medals.csv
+TPE,0,1,4,5,Sydney 2000 Olympics Nations Medals.csv
+PRK,0,1,3,4,Sydney 2000 Olympics Nations Medals.csv
+TTO,0,1,1,2,Sydney 2000 Olympics Nations Medals.csv
+KSA,0,1,1,2,Sydney 2000 Olympics Nations Medals.csv
+MDA,0,1,1,2,Sydney 2000 Olympics Nations Medals.csv
+URU,0,1,0,1,Sydney 2000 Olympics Nations Medals.csv
+VIE,0,1,0,1,Sydney 2000 Olympics Nations Medals.csv
+IRL,0,1,0,1,Sydney 2000 Olympics Nations Medals.csv
+SRI,0,1,0,1,Sydney 2000 Olympics Nations Medals.csv
+GEO,0,0,6,6,Sydney 2000 Olympics Nations Medals.csv
+CRC,0,0,2,2,Sydney 2000 Olympics Nations Medals.csv
+POR,0,0,2,2,Sydney 2000 Olympics Nations Medals.csv
+BAR,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+QAT,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+KGZ,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+IND,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+ARM,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+KUW,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+MKD,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+CHI,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+ISL,0,0,1,1,Sydney 2000 Olympics Nations Medals.csv
+USA,39,41,33,113,Tokyo 2020 Olympics Nations Medals.csv
+CHN,38,32,19,89,Tokyo 2020 Olympics Nations Medals.csv
+JPN,27,14,17,58,Tokyo 2020 Olympics Nations Medals.csv
+GBR,22,20,22,64,Tokyo 2020 Olympics Nations Medals.csv
+ROC,20,28,23,71,Tokyo 2020 Olympics Nations Medals.csv
+AUS,17,7,22,46,Tokyo 2020 Olympics Nations Medals.csv
+NED,10,12,14,36,Tokyo 2020 Olympics Nations Medals.csv
+FRA,10,12,11,33,Tokyo 2020 Olympics Nations Medals.csv
+GER,10,11,16,37,Tokyo 2020 Olympics Nations Medals.csv
+ITA,10,10,20,40,Tokyo 2020 Olympics Nations Medals.csv
+CAN,7,7,10,24,Tokyo 2020 Olympics Nations Medals.csv
+BRA,7,6,8,21,Tokyo 2020 Olympics Nations Medals.csv
+NZL,7,6,7,20,Tokyo 2020 Olympics Nations Medals.csv
+CUB,7,3,5,15,Tokyo 2020 Olympics Nations Medals.csv
+HUN,6,7,7,20,Tokyo 2020 Olympics Nations Medals.csv
+KOR,6,4,10,20,Tokyo 2020 Olympics Nations Medals.csv
+POL,4,5,5,14,Tokyo 2020 Olympics Nations Medals.csv
+CZE,4,4,3,11,Tokyo 2020 Olympics Nations Medals.csv
+KEN,4,4,2,10,Tokyo 2020 Olympics Nations Medals.csv
+NOR,4,2,2,8,Tokyo 2020 Olympics Nations Medals.csv
+JAM,4,1,4,9,Tokyo 2020 Olympics Nations Medals.csv
+ESP,3,8,6,17,Tokyo 2020 Olympics Nations Medals.csv
+SWE,3,6,0,9,Tokyo 2020 Olympics Nations Medals.csv
+SUI,3,4,6,13,Tokyo 2020 Olympics Nations Medals.csv
+DEN,3,4,4,11,Tokyo 2020 Olympics Nations Medals.csv
+CRO,3,3,2,8,Tokyo 2020 Olympics Nations Medals.csv
+IRI,3,2,2,7,Tokyo 2020 Olympics Nations Medals.csv
+SRB,3,1,5,9,Tokyo 2020 Olympics Nations Medals.csv
+BEL,3,1,3,7,Tokyo 2020 Olympics Nations Medals.csv
+BUL,3,1,2,6,Tokyo 2020 Olympics Nations Medals.csv
+SLO,3,1,1,5,Tokyo 2020 Olympics Nations Medals.csv
+UZB,3,0,2,5,Tokyo 2020 Olympics Nations Medals.csv
+GEO,2,5,1,8,Tokyo 2020 Olympics Nations Medals.csv
+TPE,2,4,6,12,Tokyo 2020 Olympics Nations Medals.csv
+TUR,2,2,9,13,Tokyo 2020 Olympics Nations Medals.csv
+UGA,2,1,1,4,Tokyo 2020 Olympics Nations Medals.csv
+GRE,2,1,1,4,Tokyo 2020 Olympics Nations Medals.csv
+ECU,2,1,0,3,Tokyo 2020 Olympics Nations Medals.csv
+IRL,2,0,2,4,Tokyo 2020 Olympics Nations Medals.csv
+QAT,2,0,1,3,Tokyo 2020 Olympics Nations Medals.csv
+BAH,2,0,0,2,Tokyo 2020 Olympics Nations Medals.csv
+KOS,2,0,0,2,Tokyo 2020 Olympics Nations Medals.csv
+UKR,1,6,12,19,Tokyo 2020 Olympics Nations Medals.csv
+BLR,1,3,3,7,Tokyo 2020 Olympics Nations Medals.csv
+ROU,1,3,0,4,Tokyo 2020 Olympics Nations Medals.csv
+VEN,1,3,0,4,Tokyo 2020 Olympics Nations Medals.csv
+IND,1,2,4,7,Tokyo 2020 Olympics Nations Medals.csv
+HKG,1,2,3,6,Tokyo 2020 Olympics Nations Medals.csv
+SVK,1,2,1,4,Tokyo 2020 Olympics Nations Medals.csv
+PHI,1,2,1,4,Tokyo 2020 Olympics Nations Medals.csv
+RSA,1,2,0,3,Tokyo 2020 Olympics Nations Medals.csv
+AUT,1,1,5,7,Tokyo 2020 Olympics Nations Medals.csv
+EGY,1,1,4,6,Tokyo 2020 Olympics Nations Medals.csv
+INA,1,1,3,5,Tokyo 2020 Olympics Nations Medals.csv
+ETH,1,1,2,4,Tokyo 2020 Olympics Nations Medals.csv
+POR,1,1,2,4,Tokyo 2020 Olympics Nations Medals.csv
+TUN,1,1,0,2,Tokyo 2020 Olympics Nations Medals.csv
+EST,1,0,1,2,Tokyo 2020 Olympics Nations Medals.csv
+FIJ,1,0,1,2,Tokyo 2020 Olympics Nations Medals.csv
+THA,1,0,1,2,Tokyo 2020 Olympics Nations Medals.csv
+LAT,1,0,1,2,Tokyo 2020 Olympics Nations Medals.csv
+BER,1,0,0,1,Tokyo 2020 Olympics Nations Medals.csv
+PUR,1,0,0,1,Tokyo 2020 Olympics Nations Medals.csv
+MAR,1,0,0,1,Tokyo 2020 Olympics Nations Medals.csv
+COL,0,4,1,5,Tokyo 2020 Olympics Nations Medals.csv
+AZE,0,3,4,7,Tokyo 2020 Olympics Nations Medals.csv
+DOM,0,3,2,5,Tokyo 2020 Olympics Nations Medals.csv
+ARM,0,2,2,4,Tokyo 2020 Olympics Nations Medals.csv
+KGZ,0,2,1,3,Tokyo 2020 Olympics Nations Medals.csv
+MGL,0,1,3,4,Tokyo 2020 Olympics Nations Medals.csv
+SMR,0,1,2,3,Tokyo 2020 Olympics Nations Medals.csv
+ARG,0,1,2,3,Tokyo 2020 Olympics Nations Medals.csv
+JOR,0,1,1,2,Tokyo 2020 Olympics Nations Medals.csv
+MAS,0,1,1,2,Tokyo 2020 Olympics Nations Medals.csv
+NGR,0,1,1,2,Tokyo 2020 Olympics Nations Medals.csv
+MKD,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+NAM,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+LTU,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+TKM,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+KSA,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+BRN,0,1,0,1,Tokyo 2020 Olympics Nations Medals.csv
+KAZ,0,0,8,8,Tokyo 2020 Olympics Nations Medals.csv
+MEX,0,0,4,4,Tokyo 2020 Olympics Nations Medals.csv
+FIN,0,0,2,2,Tokyo 2020 Olympics Nations Medals.csv
+BUR,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+SYR,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+GRN,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+MDA,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+CIV,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+BOT,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+GHA,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+KUW,0,0,1,1,Tokyo 2020 Olympics Nations Medals.csv
+GER,11,12,6,29,Torino 2006 Olympics Nations Medals.csv
+USA,9,9,7,25,Torino 2006 Olympics Nations Medals.csv
+AUT,9,7,7,23,Torino 2006 Olympics Nations Medals.csv
+RUS,8,6,8,22,Torino 2006 Olympics Nations Medals.csv
+CAN,7,10,7,24,Torino 2006 Olympics Nations Medals.csv
+SWE,7,2,5,14,Torino 2006 Olympics Nations Medals.csv
+KOR,6,3,2,11,Torino 2006 Olympics Nations Medals.csv
+SUI,5,4,5,14,Torino 2006 Olympics Nations Medals.csv
+ITA,5,0,6,11,Torino 2006 Olympics Nations Medals.csv
+FRA,3,2,4,9,Torino 2006 Olympics Nations Medals.csv
+NED,3,2,4,9,Torino 2006 Olympics Nations Medals.csv
+EST,3,0,0,3,Torino 2006 Olympics Nations Medals.csv
+NOR,2,8,9,19,Torino 2006 Olympics Nations Medals.csv
+CHN,2,4,5,11,Torino 2006 Olympics Nations Medals.csv
+CZE,1,2,1,4,Torino 2006 Olympics Nations Medals.csv
+CRO,1,2,0,3,Torino 2006 Olympics Nations Medals.csv
+AUS,1,0,1,2,Torino 2006 Olympics Nations Medals.csv
+JPN,1,0,0,1,Torino 2006 Olympics Nations Medals.csv
+FIN,0,6,3,9,Torino 2006 Olympics Nations Medals.csv
+POL,0,1,1,2,Torino 2006 Olympics Nations Medals.csv
+BLR,0,1,0,1,Torino 2006 Olympics Nations Medals.csv
+GBR,0,1,0,1,Torino 2006 Olympics Nations Medals.csv
+BUL,0,1,0,1,Torino 2006 Olympics Nations Medals.csv
+SVK,0,1,0,1,Torino 2006 Olympics Nations Medals.csv
+UKR,0,0,2,2,Torino 2006 Olympics Nations Medals.csv
+LAT,0,0,1,1,Torino 2006 Olympics Nations Medals.csv
+CAN,14,7,5,26,Vancouver 2010 Olympics Nations Medals.csv
+GER,10,13,7,30,Vancouver 2010 Olympics Nations Medals.csv
+USA,9,15,13,37,Vancouver 2010 Olympics Nations Medals.csv
+NOR,9,8,6,23,Vancouver 2010 Olympics Nations Medals.csv
+KOR,6,6,2,14,Vancouver 2010 Olympics Nations Medals.csv
+SUI,6,0,3,9,Vancouver 2010 Olympics Nations Medals.csv
+CHN,5,2,4,11,Vancouver 2010 Olympics Nations Medals.csv
+SWE,5,2,4,11,Vancouver 2010 Olympics Nations Medals.csv
+AUT,4,6,6,16,Vancouver 2010 Olympics Nations Medals.csv
+NED,4,1,3,8,Vancouver 2010 Olympics Nations Medals.csv
+RUS,3,5,7,15,Vancouver 2010 Olympics Nations Medals.csv
+FRA,2,3,6,11,Vancouver 2010 Olympics Nations Medals.csv
+AUS,2,1,0,3,Vancouver 2010 Olympics Nations Medals.csv
+CZE,2,0,4,6,Vancouver 2010 Olympics Nations Medals.csv
+POL,1,3,2,6,Vancouver 2010 Olympics Nations Medals.csv
+ITA,1,1,3,5,Vancouver 2010 Olympics Nations Medals.csv
+BLR,1,1,1,3,Vancouver 2010 Olympics Nations Medals.csv
+SVK,1,1,1,3,Vancouver 2010 Olympics Nations Medals.csv
+GBR,1,0,0,1,Vancouver 2010 Olympics Nations Medals.csv
+JPN,0,3,2,5,Vancouver 2010 Olympics Nations Medals.csv
+SLO,0,2,1,3,Vancouver 2010 Olympics Nations Medals.csv
+CRO,0,2,1,3,Vancouver 2010 Olympics Nations Medals.csv
+LAT,0,2,0,2,Vancouver 2010 Olympics Nations Medals.csv
+FIN,0,1,4,5,Vancouver 2010 Olympics Nations Medals.csv
+KAZ,0,1,0,1,Vancouver 2010 Olympics Nations Medals.csv
+EST,0,1,0,1,Vancouver 2010 Olympics Nations Medals.csv

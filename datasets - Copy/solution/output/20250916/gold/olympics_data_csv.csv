@@ -1,0 +1,793 @@
+Country Code,CountryName,Gold,Silver,Bronze,Total,Year,City
+USA,United States,48,26,30,104,2012,London
+USA,United States,46,37,38,121,2016,Rio
+USA,United States,44,32,25,101,1996,Atlanta
+USA,United States,40,44,42,126,2024,Paris
+CHN,China,40,27,24,91,2024,Paris
+CHN,China,39,31,22,92,2012,London
+USA,United States,39,41,33,113,2020,Tokyo
+CHN,China,38,32,19,89,2020,Tokyo
+USA,United States,37,24,32,93,2000,Sydney
+USA,United States,36,39,26,101,2004,Athens
+CHN,China,32,17,15,64,2004,Athens
+RUS,Russian Federation,32,28,29,89,2000,Sydney
+GBR,United Kingdom,29,18,18,65,2012,London
+RUS,Russian Federation,28,26,36,90,2004,Athens
+CHN,China,28,16,14,58,2000,Sydney
+GBR,United Kingdom,27,23,17,67,2016,Rio
+JPN,Japan,27,14,17,58,2020,Tokyo
+RUS,Russian Federation,26,21,16,63,1996,Atlanta
+CHN,China,26,18,26,70,2016,Rio
+GBR,United Kingdom,22,20,22,64,2020,Tokyo
+GER, Germany,20,18,27,65,1996,Atlanta
+JPN,Japan,20,12,13,45,2024,Paris
+ROC,Russia,20,28,23,71,2020,Tokyo
+RUS,Russian Federation,19,17,20,56,2016,Rio
+RUS,Russian Federation,18,21,26,65,2012,London
+AUS,Australia,18,19,16,53,2024,Paris
+AUS,Australia,17,16,17,50,2004,Athens
+GER, Germany,17,10,15,42,2016,Rio
+AUS,Australia,17,7,22,46,2020,Tokyo
+JPN,Japan,16,9,12,37,2004,Athens
+CHN,China,16,22,12,50,1996,Atlanta
+NOR,Norway,16,8,13,37,2022,Beijing
+FRA,France,16,26,22,64,2024,Paris
+AUS,Australia,16,25,17,58,2000,Sydney
+FRA,France,15,7,15,37,1996,Atlanta
+NED,#REF!,15,7,12,34,2024,Paris
+GBR,United Kingdom,14,22,29,65,2024,Paris
+NOR,Norway,14,14,11,39,2018,PyeongChang
+GER, Germany,14,10,7,31,2018,PyeongChang
+CAN,Canada,14,7,5,26,2010,Vancouver
+GER, Germany,13,16,20,49,2004,Athens
+ITA,Italy,13,10,12,35,1996,Atlanta
+KOR,"Korea, Republic of",13,9,9,31,2012,London
+KOR,"Korea, Republic of",13,9,10,32,2024,Paris
+NOR,Norway,13,5,7,25,2002,SaltLakeCity
+GER, Germany,13,17,26,56,2000,Sydney
+FRA,France,13,14,11,38,2000,Sydney
+ITA,Italy,13,8,13,34,2000,Sydney
+GER, Germany,12,10,5,27,2022,Beijing
+GER, Germany,12,9,8,29,1998,Nagano
+ITA,Italy,12,13,15,40,2024,Paris
+GER, Germany,12,13,8,33,2024,Paris
+JPN,Japan,12,8,21,41,2016,Rio
+GER, Germany,12,16,8,36,2002,SaltLakeCity
+NED, Netherlands,12,9,4,25,2000,Sydney
+FRA,France,11,9,13,33,2004,Athens
+RUS,Russian Federation,11,8,4,23,1994,Lillehammer
+GER, Germany,11,20,13,44,2012,London
+FRA,France,11,11,13,35,2012,London
+CAN,Canada,11,8,10,29,2018,PyeongChang
+RUS,Russian Federation,11,9,9,29,2014,Sochi
+NOR,Norway,11,6,9,26,2014,Sochi
+CUB,Cuba,11,11,7,29,2000,Sydney
+GBR,United Kingdom,11,10,7,28,2000,Sydney
+ROU,Romania,11,6,9,26,2000,Sydney
+GER, Germany,11,12,6,29,2006,Torino
+ITA,Italy,10,11,11,32,2004,Athens
+NOR,Norway,10,11,5,26,1994,Lillehammer
+NOR,Norway,10,10,5,25,1998,Nagano
+NZL,New Zealand,10,7,3,20,2024,Paris
+FRA,France,10,18,14,42,2016,Rio
+USA,United States,10,13,11,34,2002,SaltLakeCity
+CAN,Canada,10,10,5,25,2014,Sochi
+NED, Netherlands,10,12,14,36,2020,Tokyo
+FRA,France,10,12,11,33,2020,Tokyo
+GER, Germany,10,11,16,37,2020,Tokyo
+ITA,Italy,10,10,20,40,2020,Tokyo
+GER, Germany,10,13,7,30,2010,Vancouver
+KOR,"Korea, Republic of",9,12,9,30,2004,Athens
+GBR,United Kingdom,9,9,12,30,2004,Athens
+CUB,Cuba,9,7,11,27,2004,Athens
+AUS,Australia,9,9,23,41,1996,Atlanta
+CUB,Cuba,9,8,8,25,1996,Atlanta
+UKR,Ukraine,9,2,12,23,1996,Atlanta
+CHN,China,9,4,2,15,2022,Beijing
+GER, Germany,9,7,8,24,1994,Lillehammer
+RUS,Russian Federation,9,6,3,18,1998,Nagano
+CAN,Canada,9,7,11,27,2024,Paris
+USA,United States,9,8,6,23,2018,PyeongChang
+KOR,"Korea, Republic of",9,3,9,21,2016,Rio
+USA,United States,9,9,10,28,2014,Sochi
+USA,United States,9,9,7,25,2006,Torino
+AUT,Austria,9,7,7,23,2006,Torino
+USA,United States,9,15,13,37,2010,Vancouver
+NOR,Norway,9,8,6,23,2010,Vancouver
+HUN,Hungary,8,6,3,17,2004,Athens
+UKR,Ukraine,8,5,9,22,2004,Athens
+ROU,Romania,8,5,6,19,2004,Athens
+USA,United States,8,10,7,25,2022,Beijing
+SWE,Sweden,8,5,5,18,2022,Beijing
+NED, Netherlands,8,5,4,17,2022,Beijing
+AUS,Australia,8,15,12,35,2012,London
+ITA,Italy,8,9,11,28,2012,London
+HUN,Hungary,8,4,6,18,2012,London
+UZB,Uzbekistan,8,2,3,13,2024,Paris
+NED, Netherlands,8,6,6,20,2018,PyeongChang
+ITA,Italy,8,12,8,28,2016,Rio
+AUS,Australia,8,11,10,29,2016,Rio
+NED, Netherlands,8,7,4,19,2016,Rio
+HUN,Hungary,8,3,4,15,2016,Rio
+NED, Netherlands,8,7,9,24,2014,Sochi
+GER, Germany,8,6,5,19,2014,Sochi
+KOR,"Korea, Republic of",8,10,10,28,2000,Sydney
+HUN,Hungary,8,6,3,17,2000,Sydney
+RUS,Russian Federation,8,6,8,22,2006,Torino
+KOR,"Korea, Republic of",7,15,5,27,1996,Atlanta
+POL,Poland,7,5,5,17,1996,Atlanta
+HUN,Hungary,7,4,10,21,1996,Atlanta
+AUT,Austria,7,7,4,18,2022,Beijing
+SUI,#REF!,7,2,6,15,2022,Beijing
+ITA,Italy,7,5,8,20,1994,Lillehammer
+JPN,Japan,7,14,17,38,2012,London
+IRI,#REF!,7,5,1,13,2012,London
+SWE,Sweden,7,6,1,14,2018,PyeongChang
+BRA,Brazil,7,6,6,19,2016,Rio
+ESP,Spain,7,4,6,17,2016,Rio
+CAN,Canada,7,3,7,17,2002,SaltLakeCity
+SUI,#REF!,7,2,2,11,2014,Sochi
+CAN, Canada,7,7,10,24,2020,Tokyo
+BRA, Brazil,7,6,8,21,2020,Tokyo
+NZL, New Zealand,7,6,7,20,2020,Tokyo
+CUB, Cuba,7,3,5,15,2020,Tokyo
+CAN, Canada,7,10,7,24,2006,Torino
+SWE, Sweden,7,2,5,14,2006,Torino
+GRE,#REF!,6,6,4,16,2004,Athens
+ROC, Republic of China (Taiwan),6,12,14,32,2022,Beijing
+USA, United States of America,6,5,2,13,1994,Lillehammer
+NED,#REF!,6,6,8,20,2012,London
+NZL, New Zealand,6,2,5,13,2012,London
+CAN, Canada,6,5,4,15,1998,Nagano
+USA, United States of America,6,3,4,13,1998,Nagano
+HUN, Hungary,6,7,6,19,2024,Paris
+KEN, Kenya,6,6,1,13,2016,Rio
+JAM, Jamaica,6,3,2,11,2016,Rio
+POL, Poland,6,5,3,14,2000,Sydney
+HUN, Hungary,6,7,7,20,2020,Tokyo
+KOR, South Korea,6,4,10,20,2020,Tokyo
+KOR, South Korea,6,3,2,11,2006,Torino
+KOR, South Korea,6,6,2,14,2010,Vancouver
+SUI,#REF!,6,0,3,9,2010,Vancouver
+BRA, Brazil,5,2,3,10,2004,Athens
+NOR, Norway,5,0,1,6,2004,Athens
+ESP, Spain,5,6,6,17,1996,Atlanta
+FRA, France,5,7,2,14,2022,Beijing
+UKR, Ukraine,5,4,10,19,2012,London
+CUB, Cuba,5,3,7,15,2012,London
+NED,#REF!,5,4,2,11,1998,Nagano
+JPN, Japan,5,1,4,10,1998,Nagano
+ESP, Spain,5,4,9,18,2024,Paris
+KOR, South Korea,5,8,4,17,2018,PyeongChang
+SUI,#REF!,5,6,4,15,2018,PyeongChang
+FRA, France,5,4,6,15,2018,PyeongChang
+AUT, Austria,5,3,6,14,2018,PyeongChang
+CRO,#REF!,5,3,2,10,2016,Rio
+CUB, Cuba,5,2,4,11,2016,Rio
+RUS, Russia,5,4,4,13,2002,SaltLakeCity
+BLR, Belarus,5,0,1,6,2014,Sochi
+JPN, Japan,5,8,5,18,2000,Sydney
+BUL,#REF!,5,6,2,13,2000,Sydney
+SUI,#REF!,5,4,5,14,2006,Torino
+ITA, Italy,5,0,6,11,2006,Torino
+CHN, China,5,2,4,11,2010,Vancouver
+SWE, Sweden,5,2,4,11,2010,Vancouver
+NED,#REF!,4,9,9,22,2004,Athens
+SWE, Sweden,4,2,1,7,2004,Athens
+ROU, Romania,4,7,9,20,1996,Atlanta
+NED,#REF!,4,5,10,19,1996,Atlanta
+GRE,#REF!,4,4,0,8,1996,Atlanta
+CZE, Czech Republic,4,3,4,11,1996,Atlanta
+SUI,#REF!,4,3,0,7,1996,Atlanta
+DEN,#REF!,4,1,1,6,1996,Atlanta
+TUR, Turkey,4,1,1,6,1996,Atlanta
+CAN, Canada,4,8,14,26,2022,Beijing
+KOR, South Korea,4,1,1,6,1994,Lillehammer
+ESP, Spain,4,10,6,20,2012,London
+JAM, Jamaica,4,5,4,13,2012,London
+CZE, Czech Republic,4,4,3,11,2012,London
+RSA,#REF!,4,1,1,6,2012,London
+PRK, North Korea,4,0,3,7,2012,London
+SWE, Sweden,4,4,3,11,2024,Paris
+KEN, Kenya,4,2,5,11,2024,Paris
+NOR, Norway,4,1,3,8,2024,Paris
+IRL, Ireland,4,0,3,7,2024,Paris
+JPN, Japan,4,5,4,13,2018,PyeongChang
+NZL, New Zealand,4,9,5,18,2016,Rio
+CAN, Canada,4,3,15,22,2016,Rio
+UZB, Uzbekistan,4,2,7,13,2016,Rio
+FRA, France,4,5,2,11,2002,SaltLakeCity
+ITA, Italy,4,4,5,13,2002,SaltLakeCity
+FIN, Finland,4,2,1,7,2002,SaltLakeCity
+AUT, Austria,4,8,5,17,2014,Sochi
+FRA, France,4,4,7,15,2014,Sochi
+POL, Poland,4,1,1,6,2014,Sochi
+GRE,#REF!,4,6,3,13,2000,Sydney
+SWE, Sweden,4,5,3,12,2000,Sydney
+NOR, Norway,4,3,3,10,2000,Sydney
+ETH, Ethiopia,4,1,3,8,2000,Sydney
+POL, Poland,4,5,5,14,2020,Tokyo
+CZE, Czech Republic,4,4,3,11,2020,Tokyo
+KEN, Kenya,4,4,2,10,2020,Tokyo
+NOR, Norway,4,2,2,8,2020,Tokyo
+JAM, Jamaica,4,1,4,9,2020,Tokyo
+AUT, Austria,4,6,6,16,2010,Vancouver
+NED,#REF!,4,1,3,8,2010,Vancouver
+ESP, Spain,3,11,6,20,2004,Athens
+CAN, Canada,3,6,3,12,2004,Athens
+TUR, Turkey,3,4,4,11,2004,Athens
+POL, Poland,3,2,5,10,2004,Athens
+NZL, New Zealand,3,2,0,5,2004,Athens
+THA, Thailand,3,1,4,8,2004,Athens
+CAN, Canada,3,11,8,22,1996,Atlanta
+BUL,#REF!,3,7,5,15,1996,Atlanta
+JPN, Japan,3,6,5,14,1996,Atlanta
+KAZ, Kazakhstan,3,4,4,11,1996,Atlanta
+BRA, Brazil,3,3,9,15,1996,Atlanta
+NZL, New Zealand,3,2,1,6,1996,Atlanta
+RSA,#REF!,3,1,1,5,1996,Atlanta
+IRL, Ireland,3,0,1,4,1996,Atlanta
+JPN, Japan,3,6,9,18,2022,Beijing
+CAN, Canada,3,6,4,13,1994,Lillehammer
+SUI,#REF!,3,4,2,9,1994,Lillehammer
+BRA, Brazil,3,5,9,17,2012,London
+KAZ, Kazakhstan,3,2,6,11,2012,London
+POL, Poland,3,2,6,11,2012,London
+ETH, Ethiopia,3,2,3,8,2012,London
+CRO,#REF!,3,1,2,6,2012,London
+AUT, Austria,3,5,9,17,1998,Nagano
+KOR, South Korea,3,1,2,6,1998,Nagano
+BRA, Brazil,3,7,10,20,2024,Paris
+IRI,#REF!,3,6,3,12,2024,Paris
+UKR, Ukraine,3,5,4,12,2024,Paris
+ROU, Romania,3,4,2,9,2024,Paris
+GEO, Georgia,3,3,1,7,2024,Paris
+BEL, Belgium,3,1,6,10,2024,Paris
+BUL,#REF!,3,1,3,7,2024,Paris
+SRB, Serbia,3,1,1,5,2024,Paris
+CZE, Czech Republic,3,0,2,5,2024,Paris
+ITA, Italy,3,2,5,10,2018,PyeongChang
+COL, Colombia,3,2,3,8,2016,Rio
+SUI,#REF!,3,2,2,7,2016,Rio
+IRI,#REF!,3,1,4,8,2016,Rio
+GRE,#REF!,3,1,2,6,2016,Rio
+ARG, Argentina,3,1,0,4,2016,Rio
+NED,#REF!,3,5,0,8,2002,SaltLakeCity
+AUT, Austria,3,4,10,17,2002,SaltLakeCity
+SUI,#REF!,3,2,6,11,2002,SaltLakeCity
+CRO,#REF!,3,1,0,4,2002,SaltLakeCity
+CHN, China,3,4,2,9,2014,Sochi
+KOR, South Korea,3,3,2,8,2014,Sochi
+UKR, Ukraine,3,10,10,23,2000,Sydney
+KAZ, Kazakhstan,3,4,0,7,2000,Sydney
+BLR, Belarus,3,3,11,17,2000,Sydney
+CAN, Canada,3,3,8,14,2000,Sydney
+ESP, Spain,3,3,5,11,2000,Sydney
+TUR, Turkey,3,0,2,5,2000,Sydney
+IRI,#REF!,3,0,1,4,2000,Sydney
+ESP, Spain,3,8,6,17,2020,Tokyo
+SWE, Sweden,3,6,0,9,2020,Tokyo
+SUI,#REF!,3,4,6,13,2020,Tokyo
+DEN,#REF!,3,4,4,11,2020,Tokyo
+CRO,#REF!,3,3,2,8,2020,Tokyo
+IRI,#REF!,3,2,2,7,2020,Tokyo
+SRB, Serbia,3,1,5,9,2020,Tokyo
+BEL, Belgium,3,1,3,7,2020,Tokyo
+BUL,#REF!,3,1,2,6,2020,Tokyo
+SLO, Slovenia,3,1,1,5,2020,Tokyo
+UZB, Uzbekistan,3,0,2,5,2020,Tokyo
+FRA, France,3,2,4,9,2006,Torino
+NED,#REF!,3,2,4,9,2006,Torino
+EST,#N/A,3,0,0,3,2006,Torino
+RUS, Russia,3,5,7,15,2010,Vancouver
+BLR, Belarus,2,5,7,14,2004,Athens
+AUT, Austria,2,4,1,7,2004,Athens
+ETH, Ethiopia,2,3,2,7,2004,Athens
+IRI,#REF!,2,2,2,6,2004,Athens
+SVK, Slovakia,2,2,2,6,2004,Athens
+TPE, Taiwan,2,2,1,5,2004,Athens
+GEO, Georgia,2,2,0,4,2004,Athens
+BUL,#REF!,2,1,9,12,2004,Athens
+DEN,#REF!,2,1,5,8,2004,Athens
+UZB, Uzbekistan,2,1,2,5,2004,Athens
+JAM, Jamaica,2,1,2,5,2004,Athens
+MAR, Morocco,2,1,0,3,2004,Athens
+ARG, Argentina,2,0,4,6,2004,Athens
+CHI,#REF!,2,0,1,3,2004,Athens
+SWE, Sweden,2,4,2,8,1996,Atlanta
+NOR, Norway,2,2,3,7,1996,Atlanta
+BEL, Belgium,2,2,2,6,1996,Atlanta
+NGR,#REF!,2,1,3,6,1996,Atlanta
+PRK, North Korea,2,1,2,5,1996,Atlanta
+ETH, Ethiopia,2,0,1,3,1996,Atlanta
+ALG,#REF!,2,0,1,3,1996,Atlanta
+ITA, Italy,2,7,8,17,2022,Beijing
+KOR, South Korea,2,5,2,9,2022,Beijing
+SLO, Slovenia,2,3,2,7,2022,Beijing
+FIN, Finland,2,2,4,8,2022,Beijing
+NZL, New Zealand,2,1,0,3,2022,Beijing
+AUT, Austria,2,3,4,9,1994,Lillehammer
+SWE, Sweden,2,1,0,3,1994,Lillehammer
+CAN, Canada,2,6,10,18,2012,London
+BLR, Belarus,2,5,3,10,2012,London
+KEN, Kenya,2,4,7,13,2012,London
+DEN,#REF!,2,4,3,9,2012,London
+ROU, Romania,2,4,1,7,2012,London
+AZE, Azerbaijan,2,2,5,9,2012,London
+SUI, Switzerland,2,2,0,4,2012,London
+NOR,Norway,2,1,1,4,2012,London
+LTU,Lithuania,2,0,3,5,2012,London
+TUN,Tunisia,2,0,1,3,2012,London
+ITA,Italy,2,6,2,10,1998,Nagano
+FIN,Finland,2,4,6,12,1998,Nagano
+SUI, Switzerland,2,2,3,7,1998,Nagano
+FRA,France,2,1,5,8,1998,Nagano
+DEN, Denmark,2,2,5,9,2024,Paris
+CRO, Croatia,2,2,3,7,2024,Paris
+AZE,Azerbaijan,2,2,3,7,2024,Paris
+CUB,Cuba,2,1,6,9,2024,Paris
+BRN,Brunei Darussalam,2,1,1,4,2024,Paris
+SLO, Slovenia,2,1,0,3,2024,Paris
+TPE, Taiwan,2,0,5,7,2024,Paris
+AUT,Austria,2,0,3,5,2024,Paris
+PHI, Philippines,2,0,2,4,2024,Paris
+HKG,Hong Kong,2,0,2,4,2024,Paris
+INA, Indonesia,2,0,1,3,2024,Paris
+ALG, Algeria,2,0,1,3,2024,Paris
+OAR,Russia,2,6,9,17,2018,PyeongChang
+CZE,Czechia,2,2,3,7,2018,PyeongChang
+BLR,Belarus,2,1,0,3,2018,PyeongChang
+DEN, Denmark,2,6,7,15,2016,Rio
+SWE,Sweden,2,6,3,11,2016,Rio
+RSA, South Africa,2,6,2,10,2016,Rio
+KAZ,Kazakhstan,2,5,10,17,2016,Rio
+UKR,Ukraine,2,5,4,11,2016,Rio
+SRB,Serbia,2,4,2,8,2016,Rio
+POL,Poland,2,3,6,11,2016,Rio
+PRK,"Korea, Democratic People's Republic of",2,3,2,7,2016,Rio
+BEL,Belgium,2,2,2,6,2016,Rio
+THA,Thailand,2,2,2,6,2016,Rio
+SVK,Slovakia,2,2,0,4,2016,Rio
+GEO,Georgia,2,1,4,7,2016,Rio
+CHN,China,2,2,4,8,2002,SaltLakeCity
+KOR,"Korea, Republic of",2,2,0,4,2002,SaltLakeCity
+AUS,Australia,2,0,0,2,2002,SaltLakeCity
+SWE,Sweden,2,7,6,15,2014,Sochi
+CZE,Czechia,2,4,3,9,2014,Sochi
+SLO, Slovenia,2,2,4,8,2014,Sochi
+CZE,Czechia,2,3,3,8,2000,Sydney
+KEN,Kenya,2,3,2,7,2000,Sydney
+DEN, Denmark,2,3,1,6,2000,Sydney
+FIN,Finland,2,1,1,4,2000,Sydney
+AUT,Austria,2,1,0,3,2000,Sydney
+LTU,Lithuania,2,0,3,5,2000,Sydney
+BAH, Bahrain,2,0,1,3,2000,Sydney
+AZE,Azerbaijan,2,0,1,3,2000,Sydney
+SLO, Slovenia,2,0,0,2,2000,Sydney
+GEO,Georgia,2,5,1,8,2020,Tokyo
+TPE, Taiwan,2,4,6,12,2020,Tokyo
+TUR,Türkiye,2,2,9,13,2020,Tokyo
+UGA,Uganda,2,1,1,4,2020,Tokyo
+GRE, Greece,2,1,1,4,2020,Tokyo
+ECU,Ecuador,2,1,0,3,2020,Tokyo
+IRL,Ireland,2,0,2,4,2020,Tokyo
+QAT,Qatar,2,0,1,3,2020,Tokyo
+BAH, Bahrain,2,0,0,2,2020,Tokyo
+KOS, Kosovo,2,0,0,2,2020,Tokyo
+NOR,Norway,2,8,9,19,2006,Torino
+CHN,China,2,4,5,11,2006,Torino
+FRA,France,2,3,6,11,2010,Vancouver
+AUS,Australia,2,1,0,3,2010,Vancouver
+CZE,Czechia,2,0,4,6,2010,Vancouver
+KAZ,Kazakhstan,1,4,3,8,2004,Athens
+KEN,Kenya,1,4,2,7,2004,Athens
+CZE,Czechia,1,3,5,9,2004,Athens
+RSA, South Africa,1,3,2,6,2004,Athens
+CRO, Croatia,1,2,2,5,2004,Athens
+LTU,Lithuania,1,2,0,3,2004,Athens
+SUI, Switzerland,1,1,3,5,2004,Athens
+EGY,Egypt,1,1,3,5,2004,Athens
+INA, Indonesia,1,1,2,4,2004,Athens
+ZIM, Zimbabwe,1,1,1,3,2004,Athens
+AZE,Azerbaijan,1,0,4,5,2004,Athens
+BEL,Belgium,1,0,2,3,2004,Athens
+ISR,Israel,1,0,1,2,2004,Athens
+BAH, Bahrain,1,0,1,2,2004,Athens
+DOM,Dominican Republic,1,0,0,1,2004,Athens
+CMR,Cameroon,1,0,0,1,2004,Athens
+UAE, United Arab Emirates,1,0,0,1,2004,Athens
+GBR,United Kingdom,1,8,6,15,1996,Atlanta
+BLR,Belarus,1,6,8,15,1996,Atlanta
+KEN,Kenya,1,4,3,8,1996,Atlanta
+JAM,Jamaica,1,3,2,6,1996,Atlanta
+FIN,Finland,1,2,1,4,1996,Atlanta
+YUG, Yugoslavia (Note,1,1,2,4,1996,Atlanta
+INA, Indonesia,1,1,2,4,1996,Atlanta
+SVK,Slovakia,1,1,1,3,1996,Atlanta
+IRI, Iran,1,1,1,3,1996,Atlanta
+CRO, Croatia,1,1,0,2,1996,Atlanta
+ARM,Armenia,1,1,0,2,1996,Atlanta
+POR, Portugal,1,0,1,2,1996,Atlanta
+THA,Thailand,1,0,1,2,1996,Atlanta
+HKG,Hong Kong,1,0,0,1,1996,Atlanta
+CRC, Costa Rica,1,0,0,1,1996,Atlanta
+BDI,Burundi,1,0,0,1,1996,Atlanta
+SYR,Syrian Arab Republic,1,0,0,1,1996,Atlanta
+ECU,Ecuador,1,0,0,1,1996,Atlanta
+AUS,Australia,1,2,1,4,2022,Beijing
+GBR,United Kingdom,1,1,0,2,2022,Beijing
+HUN,Hungary,1,0,2,3,2022,Beijing
+CZE,Czechia,1,0,1,2,2022,Beijing
+SVK,Slovakia,1,0,1,2,2022,Beijing
+JPN,Japan,1,2,2,5,1994,Lillehammer
+KAZ,Kazakhstan,1,2,0,3,1994,Lillehammer
+UKR,Ukraine,1,0,1,2,1994,Lillehammer
+UZB,Uzbekistan,1,0,0,1,1994,Lillehammer
+SWE,Sweden,1,4,3,8,2012,London
+COL,Colombia,1,3,5,9,2012,London
+MEX,Mexico,1,3,4,8,2012,London
+GEO,Georgia,1,2,3,6,2012,London
+IRL,Ireland,1,1,4,6,2012,London
+ARG,Argentina,1,1,2,4,2012,London
+SLO, Slovenia,1,1,2,4,2012,London
+TTO,Trinidad and Tobago,1,1,2,4,2012,London
+SRB,Serbia,1,1,2,4,2012,London
+TUR,Türkiye,1,1,1,3,2012,London
+DOM,Dominican Republic,1,1,0,2,2012,London
+TPE, Taiwan,1,0,1,2,2012,London
+LAT, Latvia,1,0,1,2,2012,London
+BAH, Bahrain,1,0,0,1,2012,London
+ALG, Algeria,1,0,0,1,2012,London
+GRN, Grenada,1,0,0,1,2012,London
+VEN,"Venezuela, Bolivarian Republic of",1,0,0,1,2012,London
+BRN,Brunei Darussalam,1,0,0,1,2012,London
+UGA,Uganda,1,0,0,1,2012,London
+CZE,Czechia,1,1,1,3,1998,Nagano
+BUL, Bulgaria,1,0,0,1,1998,Nagano
+ISR,Israel,1,5,1,7,2024,Paris
+POL,Poland,1,4,5,10,2024,Paris
+KAZ,Kazakhstan,1,3,3,7,2024,Paris
+JAM,Jamaica,1,3,2,6,2024,Paris
+THA,Thailand,1,3,2,6,2024,Paris
+RSA, South Africa,1,3,2,6,2024,Paris
+AIN,Independent Olympic Participants ,1,3,1,5,2024,Paris
+ETH,Ethiopia,1,3,0,4,2024,Paris
+SUI, Switzerland,1,2,5,8,2024,Paris
+ECU,Ecuador,1,2,2,5,2024,Paris
+POR, Portugal,1,2,1,4,2024,Paris
+GRE, Greece,1,1,6,8,2024,Paris
+ARG,Argentina,1,1,1,3,2024,Paris
+EGY,Egypt,1,1,1,3,2024,Paris
+TUN,Tunisia,1,1,1,3,2024,Paris
+LCA,Saint Lucia,1,1,0,2,2024,Paris
+CHI, Chile,1,1,0,2,2024,Paris
+UGA,Uganda,1,1,0,2,2024,Paris
+BOT, Botswana,1,1,0,2,2024,Paris
+DOM,Dominican Republic,1,0,1,2,2024,Paris
+MAR,Morocco,1,0,1,2,2024,Paris
+PAK,Pakistan,1,0,0,1,2024,Paris
+DMA,Dominica,1,0,0,1,2024,Paris
+CHN,China,1,6,2,9,2018,PyeongChang
+SVK,Slovakia,1,2,0,3,2018,PyeongChang
+FIN,Finland,1,1,4,6,2018,PyeongChang
+GBR,United Kingdom,1,0,4,5,2018,PyeongChang
+POL,Poland,1,0,1,2,2018,PyeongChang
+UKR,Ukraine,1,0,0,1,2018,PyeongChang
+HUN,Hungary,1,0,0,1,2018,PyeongChang
+AZE,Azerbaijan,1,7,10,18,2016,Rio
+BLR,Belarus,1,4,4,9,2016,Rio
+TUR,Türkiye,1,3,4,8,2016,Rio
+ARM,Armenia,1,3,0,4,2016,Rio
+CZE,Czechia,1,2,7,10,2016,Rio
+ETH,Ethiopia,1,2,5,8,2016,Rio
+SLO, Slovenia,1,2,1,4,2016,Rio
+INA, Indonesia,1,2,0,3,2016,Rio
+ROU,Romania,1,1,2,4,2016,Rio
+BRN,Brunei Darussalam,1,1,0,2,2016,Rio
+VIE, Vietnam,1,1,0,2,2016,Rio
+TPE, Taiwan,1,0,2,3,2016,Rio
+IOA,Independent Olympic Athletes ,1,0,1,2,2016,Rio
+BAH, Bahrain,1,0,1,2,2016,Rio
+CIV,Côte d'Ivoire,1,0,1,2,2016,Rio
+KOS, Kosovo,1,0,0,1,2016,Rio
+TJK,Tajikistan,1,0,0,1,2016,Rio
+FIJ, Fiji,1,0,0,1,2016,Rio
+JOR,Jordan,1,0,0,1,2016,Rio
+PUR, Puerto Rico,1,0,0,1,2016,Rio
+SIN,Singapore,1,0,0,1,2016,Rio
+CZE,Czechia,1,2,0,3,2002,SaltLakeCity
+EST,Estonia,1,1,1,3,2002,SaltLakeCity
+GBR,United Kingdom,1,0,1,2,2002,SaltLakeCity
+JPN,Japan,1,4,3,8,2014,Sochi
+FIN,Finland,1,3,1,5,2014,Sochi
+GBR,United Kingdom,1,1,3,5,2014,Sochi
+LAT, Latvia,1,1,3,5,2014,Sochi
+UKR,Ukraine,1,1,0,2,2014,Sochi
+SVK,Slovakia,1,0,0,1,2014,Sochi
+SUI, Switzerland,1,6,2,9,2000,Sydney
+INA, Indonesia,1,3,2,6,2000,Sydney
+SVK,Slovakia,1,3,1,5,2000,Sydney
+MEX,Mexico,1,2,3,6,2000,Sydney
+NGR, Nigeria,1,2,0,3,2000,Sydney
+ALG, Algeria,1,1,3,5,2000,Sydney
+UZB,Uzbekistan,1,1,2,4,2000,Sydney
+YUG, Yugoslavia (Note,1,1,1,3,2000,Sydney
+LAT, Latvia,1,1,1,3,2000,Sydney
+NZL,New Zealand,1,0,3,4,2000,Sydney
+THA,Thailand,1,0,2,3,2000,Sydney
+EST,Estonia,1,0,2,3,2000,Sydney
+CRO, Croatia,1,0,1,2,2000,Sydney
+CMR,Cameroon,1,0,0,1,2000,Sydney
+COL,Colombia,1,0,0,1,2000,Sydney
+MOZ,Mozambique,1,0,0,1,2000,Sydney
+UKR,Ukraine,1,6,12,19,2020,Tokyo
+BLR,Belarus,1,3,3,7,2020,Tokyo
+ROU,Romania,1,3,0,4,2020,Tokyo
+VEN,"Venezuela, Bolivarian Republic of",1,3,0,4,2020,Tokyo
+IND,India,1,2,4,7,2020,Tokyo
+HKG,Hong Kong,1,2,3,6,2020,Tokyo
+SVK,Slovakia,1,2,1,4,2020,Tokyo
+PHI, Philippines,1,2,1,4,2020,Tokyo
+RSA, South Africa,1,2,0,3,2020,Tokyo
+AUT,Austria,1,1,5,7,2020,Tokyo
+EGY,Egypt,1,1,4,6,2020,Tokyo
+INA, Indonesia,1,1,3,5,2020,Tokyo
+ETH,Ethiopia,1,1,2,4,2020,Tokyo
+POR, Portugal,1,1,2,4,2020,Tokyo
+TUN,Tunisia,1,1,0,2,2020,Tokyo
+EST,Estonia,1,0,1,2,2020,Tokyo
+FIJ, Fiji,1,0,1,2,2020,Tokyo
+THA,Thailand,1,0,1,2,2020,Tokyo
+LAT, Latvia,1,0,1,2,2020,Tokyo
+BER, Bermuda,1,0,0,1,2020,Tokyo
+PUR, Puerto Rico,1,0,0,1,2020,Tokyo
+MAR,Morocco,1,0,0,1,2020,Tokyo
+CZE,Czechia,1,2,1,4,2006,Torino
+CRO, Croatia,1,2,0,3,2006,Torino
+AUS,Australia,1,0,1,2,2006,Torino
+JPN,Japan,1,0,0,1,2006,Torino
+POL,Poland,1,3,2,6,2010,Vancouver
+ITA,Italy,1,1,3,5,2010,Vancouver
+BLR,Belarus,1,1,1,3,2010,Vancouver
+SVK,Slovakia,1,1,1,3,2010,Vancouver
+GBR,United Kingdom,1,0,0,1,2010,Vancouver
+PRK,"Korea, Democratic People's Republic of",0,4,1,5,2004,Athens
+LAT, Latvia,0,4,0,4,2004,Athens
+MEX,Mexico,0,3,1,4,2004,Athens
+POR, Portugal,0,2,1,3,2004,Athens
+FIN,Finland,0,2,0,2,2004,Athens
+SCG," Serbia and Montenegro (historical, now dissolved)",0,2,0,2,2004,Athens
+SLO, Slovenia,0,1,3,4,2004,Athens
+EST,Estonia,0,1,2,3,2004,Athens
+HKG,Hong Kong,0,1,0,1,2004,Athens
+IND,India,0,1,0,1,2004,Athens
+PAR, Paraguay,0,1,0,1,2004,Athens
+COL,Colombia,0,0,2,2,2004,Athens
+NGR, Nigeria,0,0,2,2,2004,Athens
+VEN,"Venezuela, Bolivarian Republic of",0,0,2,2,2004,Athens
+SYR,Syrian Arab Republic,0,0,1,1,2004,Athens
+TTO,Trinidad and Tobago,0,0,1,1,2004,Athens
+ERI,Eritrea,0,0,1,1,2004,Athens
+MGL, Mongolia,0,0,1,1,2004,Athens
+ARG,Argentina,0,2,1,3,1996,Atlanta
+SLO, Slovenia,0,2,0,2,1996,Atlanta
+NAM,Namibia,0,2,0,2,1996,Atlanta
+AUT,Austria,0,1,2,3,1996,Atlanta
+UZB,Uzbekistan,0,1,1,2,1996,Atlanta
+MAS, Malaysia,0,1,1,2,1996,Atlanta
+MDA,"Moldova, Republic of",0,1,1,2,1996,Atlanta
+PHI, Philippines,0,1,0,1,1996,Atlanta
+BAH, Bahrain,0,1,0,1,1996,Atlanta
+ZAM, Zambia,0,1,0,1,1996,Atlanta
+AZE,Azerbaijan,0,1,0,1,1996,Atlanta
+LAT, Latvia,0,1,0,1,1996,Atlanta
+TPE, Taiwan,0,1,0,1,1996,Atlanta
+TGA,Tonga,0,1,0,1,1996,Atlanta
+GEO,Georgia,0,0,2,2,1996,Atlanta
+TTO,Trinidad and Tobago,0,0,2,2,1996,Atlanta
+MAR,Morocco,0,0,2,2,1996,Atlanta
+TUN,Tunisia,0,0,1,1,1996,Atlanta
+UGA,Uganda,0,0,1,1,1996,Atlanta
+LTU,Lithuania,0,0,1,1,1996,Atlanta
+MEX,Mexico,0,0,1,1,1996,Atlanta
+MGL, Mongolia,0,0,1,1,1996,Atlanta
+IND,India,0,0,1,1,1996,Atlanta
+MOZ,Mozambique,0,0,1,1,1996,Atlanta
+PUR, Puerto Rico,0,0,1,1,1996,Atlanta
+BLR,Belarus,0,2,0,2,2022,Beijing
+ESP,Spain,0,1,0,1,2022,Beijing
+UKR,Ukraine,0,1,0,1,2022,Beijing
+BEL,Belgium,0,1,0,1,2022,Beijing
+EST,Estonia,0,0,1,1,2022,Beijing
+LVA,Latvia,0,0,1,1,2022,Beijing
+POL,Poland,0,0,1,1,2022,Beijing
+BLR,Belarus,0,2,0,2,1994,Lillehammer
+FIN,Finland,0,1,5,6,1994,Lillehammer
+FRA,France,0,1,4,5,1994,Lillehammer
+NED, Netherlands,0,1,3,4,1994,Lillehammer
+CHN,China,0,1,2,3,1994,Lillehammer
+SLO, Slovenia,0,0,3,3,1994,Lillehammer
+GBR,United Kingdom,0,0,2,2,1994,Lillehammer
+AUS,Australia,0,0,1,1,1994,Lillehammer
+EGY,Egypt,0,3,1,4,2012,London
+IND,India,0,2,4,6,2012,London
+MGL, Mongolia,0,2,3,5,2012,London
+THA,Thailand,0,2,2,4,2012,London
+INA, Indonesia,0,2,1,3,2012,London
+BUL, Bulgaria,0,2,1,3,2012,London
+FIN,Finland,0,2,1,3,2012,London
+SVK,Slovakia,0,1,3,4,2012,London
+BEL,Belgium,0,1,2,3,2012,London
+MAS, Malaysia,0,1,1,2,2012,London
+QAT,Qatar,0,1,1,2,2012,London
+ARM,Armenia,0,1,1,2,2012,London
+EST,Estonia,0,1,1,2,2012,London
+PUR, Puerto Rico,0,1,1,2,2012,London
+GUA, Guatemala,0,1,0,1,2012,London
+CYP,Cyprus,0,1,0,1,2012,London
+BOT, Botswana,0,1,0,1,2012,London
+POR, Portugal,0,1,0,1,2012,London
+MNE,Montenegro,0,1,0,1,2012,London
+GAB,Gabon,0,1,0,1,2012,London
+UZB,Uzbekistan,0,0,3,3,2012,London
+SIN,Singapore,0,0,2,2,2012,London
+GRE, Greece,0,0,2,2,2012,London
+VIE, Vietnam,0,0,1,1,2012,London
+MAR,Morocco,0,0,1,1,2012,London
+TJK,Tajikistan,0,0,1,1,2012,London
+KUW, Kuwait,0,0,1,1,2012,London
+HKG,Hong Kong,0,0,1,1,2012,London
+CMR,Cameroon,0,0,1,1,2012,London
+KSA, Saudi Arabia,0,0,1,1,2012,London
+AFG,Afghanistan,0,0,1,1,2012,London
+CHN,China,0,6,2,8,1998,Nagano
+SWE,Sweden,0,2,1,3,1998,Nagano
+DEN, Denmark,0,1,0,1,1998,Nagano
+UKR,Ukraine,0,1,0,1,1998,Nagano
+KAZ,Kazakhstan,0,0,2,2,1998,Nagano
+BLR,Belarus,0,0,2,2,1998,Nagano
+GBR,United Kingdom,0,0,1,1,1998,Nagano
+BEL,Belgium,0,0,1,1,1998,Nagano
+AUS,Australia,0,0,1,1,1998,Nagano
+TUR,Türkiye,0,3,5,8,2024,Paris
+MEX,Mexico,0,3,2,5,2024,Paris
+COL,Colombia,0,3,1,4,2024,Paris
+ARM,Armenia,0,3,1,4,2024,Paris
+PRK,"Korea, Democratic People's Republic of",0,2,4,6,2024,Paris
+KGZ,Kyrgyzstan,0,2,4,6,2024,Paris
+LTU,Lithuania,0,2,2,4,2024,Paris
+IND,India,0,1,5,6,2024,Paris
+MDA,"Moldova, Republic of",0,1,3,4,2024,Paris
+KOS, Kosovo,0,1,1,2,2024,Paris
+PAN,Panama,0,1,0,1,2024,Paris
+JOR,Jordan,0,1,0,1,2024,Paris
+CYP,Cyprus,0,1,0,1,2024,Paris
+MGL, Mongolia,0,1,0,1,2024,Paris
+FIJ, Fiji,0,1,0,1,2024,Paris
+TJK,Tajikistan,0,0,3,3,2024,Paris
+ALB,Albania,0,0,2,2,2024,Paris
+GRN, Grenada,0,0,2,2,2024,Paris
+PUR, Puerto Rico,0,0,2,2,2024,Paris
+MAS, Malaysia,0,0,2,2,2024,Paris
+CPV,Cabo Verde,0,0,1,1,2024,Paris
+QAT,Qatar,0,0,1,1,2024,Paris
+ZAM, Zambia,0,0,1,1,2024,Paris
+SIN,Singapore,0,0,1,1,2024,Paris
+CIV,Côte d'Ivoire,0,0,1,1,2024,Paris
+ROT,Refugee Olympic Team,0,0,1,1,2024,Paris
+PER,Peru,0,0,1,1,2024,Paris
+SVK,Slovakia,0,0,1,1,2024,Paris
+AUS,Australia,0,2,1,3,2018,PyeongChang
+SLO, Slovenia,0,1,1,2,2018,PyeongChang
+BEL,Belgium,0,1,0,1,2018,PyeongChang
+NZL,New Zealand,0,0,2,2,2018,PyeongChang
+ESP,Spain,0,0,2,2,2018,PyeongChang
+KAZ,Kazakhstan,0,0,1,1,2018,PyeongChang
+LIE,Liechtenstein,0,0,1,1,2018,PyeongChang
+LAT, Latvia,0,0,1,1,2018,PyeongChang
+MAS, Malaysia,0,4,1,5,2016,Rio
+MEX,Mexico,0,3,2,5,2016,Rio
+VEN,"Venezuela, Bolivarian Republic of",0,2,1,3,2016,Rio
+ALG, Algeria,0,2,0,2,2016,Rio
+IRL,Ireland,0,2,0,2,2016,Rio
+LTU,Lithuania,0,1,3,4,2016,Rio
+BUL, Bulgaria,0,1,2,3,2016,Rio
+MGL, Mongolia,0,1,1,2,2016,Rio
+IND,India,0,1,1,2,2016,Rio
+NIG, Nigeria,0,1,0,1,2016,Rio
+PHI, Philippines,0,1,0,1,2016,Rio
+QAT,Qatar,0,1,0,1,2016,Rio
+BDI,Burundi,0,1,0,1,2016,Rio
+GRN, Grenada,0,1,0,1,2016,Rio
+NOR,Norway,0,0,4,4,2016,Rio
+EGY,Egypt,0,0,3,3,2016,Rio
+TUN,Tunisia,0,0,3,3,2016,Rio
+NGR, Nigeria,0,0,1,1,2016,Rio
+DOM,Dominican Republic,0,0,1,1,2016,Rio
+EST,Estonia,0,0,1,1,2016,Rio
+TTO,Trinidad and Tobago,0,0,1,1,2016,Rio
+UAE, United Arab Emirates,0,0,1,1,2016,Rio
+AUT,Austria,0,0,1,1,2016,Rio
+POR, Portugal,0,0,1,1,2016,Rio
+FIN,Finland,0,0,1,1,2016,Rio
+MAR,Morocco,0,0,1,1,2016,Rio
+SWE,Sweden,0,2,5,7,2002,SaltLakeCity
+BUL, Bulgaria,0,1,2,3,2002,SaltLakeCity
+POL,Poland,0,1,1,2,2002,SaltLakeCity
+JPN,Japan,0,1,1,2,2002,SaltLakeCity
+BLR,Belarus,0,0,1,1,2002,SaltLakeCity
+SLO, Slovenia,0,0,1,1,2002,SaltLakeCity
+ITA,Italy,0,2,7,9,2014,Sochi
+AUS,Australia,0,2,1,3,2014,Sochi
+CRO, Croatia,0,1,0,1,2014,Sochi
+KAZ,Kazakhstan,0,0,1,1,2014,Sochi
+BRA,Brazil,0,6,6,12,2000,Sydney
+JAM,Jamaica,0,6,3,9,2000,Sydney
+BEL,Belgium,0,2,3,5,2000,Sydney
+RSA, South Africa,0,2,3,5,2000,Sydney
+ARG,Argentina,0,2,2,4,2000,Sydney
+MAR,Morocco,0,1,4,5,2000,Sydney
+TPE, Taiwan,0,1,4,5,2000,Sydney
+PRK,"Korea, Democratic People's Republic of",0,1,3,4,2000,Sydney
+TTO,Trinidad and Tobago,0,1,1,2,2000,Sydney
+KSA, Saudi Arabia,0,1,1,2,2000,Sydney
+MDA,"Moldova, Republic of",0,1,1,2,2000,Sydney
+URU, Uruguay,0,1,0,1,2000,Sydney
+VIE, Vietnam,0,1,0,1,2000,Sydney
+IRL,Ireland,0,1,0,1,2000,Sydney
+SRI, Sri Lanka,0,1,0,1,2000,Sydney
+GEO,Georgia,0,0,6,6,2000,Sydney
+CRC, Costa Rica,0,0,2,2,2000,Sydney
+POR, Portugal,0,0,2,2,2000,Sydney
+BAR, Barbados,0,0,1,1,2000,Sydney
+QAT,Qatar,0,0,1,1,2000,Sydney
+KGZ,Kyrgyzstan,0,0,1,1,2000,Sydney
+IND,India,0,0,1,1,2000,Sydney
+ARM,Armenia,0,0,1,1,2000,Sydney
+KUW, Kuwait,0,0,1,1,2000,Sydney
+MKD,North Macedonia,0,0,1,1,2000,Sydney
+CHI, Chile,0,0,1,1,2000,Sydney
+ISL,Iceland,0,0,1,1,2000,Sydney
+COL,Colombia,0,4,1,5,2020,Tokyo
+AZE,Azerbaijan,0,3,4,7,2020,Tokyo
+DOM,Dominican Republic,0,3,2,5,2020,Tokyo
+ARM,Armenia,0,2,2,4,2020,Tokyo
+KGZ,Kyrgyzstan,0,2,1,3,2020,Tokyo
+MGL, Mongolia,0,1,3,4,2020,Tokyo
+SMR,San Marino,0,1,2,3,2020,Tokyo
+ARG,Argentina,0,1,2,3,2020,Tokyo
+JOR,Jordan,0,1,1,2,2020,Tokyo
+MAS, Malaysia,0,1,1,2,2020,Tokyo
+NGR, Nigeria,0,1,1,2,2020,Tokyo
+MKD,North Macedonia,0,1,0,1,2020,Tokyo
+NAM,Namibia,0,1,0,1,2020,Tokyo
+LTU,Lithuania,0,1,0,1,2020,Tokyo
+TKM,Turkmenistan,0,1,0,1,2020,Tokyo
+KSA, Saudi Arabia,0,1,0,1,2020,Tokyo
+BRN,Brunei Darussalam,0,1,0,1,2020,Tokyo
+KAZ,Kazakhstan,0,0,8,8,2020,Tokyo
+MEX,Mexico,0,0,4,4,2020,Tokyo
+FIN,Finland,0,0,2,2,2020,Tokyo
+BUR, Burkina Faso,0,0,1,1,2020,Tokyo
+SYR,Syrian Arab Republic,0,0,1,1,2020,Tokyo
+GRN, Grenada,0,0,1,1,2020,Tokyo
+MDA,"Moldova, Republic of",0,0,1,1,2020,Tokyo
+CIV,Côte d'Ivoire,0,0,1,1,2020,Tokyo
+BOT, Botswana,0,0,1,1,2020,Tokyo
+GHA,Ghana,0,0,1,1,2020,Tokyo
+KUW, Kuwait,0,0,1,1,2020,Tokyo
+FIN,Finland,0,6,3,9,2006,Torino
+POL,Poland,0,1,1,2,2006,Torino
+BLR,Belarus,0,1,0,1,2006,Torino
+GBR,United Kingdom,0,1,0,1,2006,Torino
+BUL, Bulgaria,0,1,0,1,2006,Torino
+SVK,Slovakia,0,1,0,1,2006,Torino
+UKR,Ukraine,0,0,2,2,2006,Torino
+LAT, Latvia,0,0,1,1,2006,Torino
+JPN,Japan,0,3,2,5,2010,Vancouver
+SLO, Slovenia,0,2,1,3,2010,Vancouver
+CRO, Croatia,0,2,1,3,2010,Vancouver
+LAT, Latvia,0,2,0,2,2010,Vancouver
+FIN,Finland,0,1,4,5,2010,Vancouver
+KAZ,Kazakhstan,0,1,0,1,2010,Vancouver
+EST,Estonia,0,1,0,1,2010,Vancouver
