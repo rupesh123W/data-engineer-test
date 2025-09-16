@@ -1,75 +1,94 @@
-from pyspark.sql import SparkSession
-import os
-import re
-import pandas as pd
+import os, re, pandas as pd
 from pyspark.sql.functions import trim
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType
+from spark_utils import init_spark                      # reusable Spark init
+from data_utils import save_outputs, data_quality_checks, ensure_output_dir  #  reusable utilities
 
-def main():
-    # ✅ Build Spark session with Windows-safe configs
-    spark = (
-        SparkSession.builder
-        .appName("OlympicsPipeline")
-        .config("spark.hadoop.hadoop.native.io", "false")
-        .config("spark.hadoop.fs.file.impl", "org.apache.hadoop.fs.RawLocalFileSystem")
-        .config("mapreduce.fileoutputcommitter.algorithm.version", "2")
-        .getOrCreate()
-    )
-
-    print("Spark Version:", spark.version)
-
-    # ✅ Absolute input & output paths
-    base_dir = r"C:\Users\Rupesh.shelar\data-engineer-test\datasets"
-    input_dir = os.path.join(base_dir, "olympics")
-    output_path = os.path.join(base_dir, "solution", "output", "olympics.parquet")
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-    # ✅ Read CSVs with pandas
-    all_pdfs = []
-    for file in os.listdir(input_dir):
-        if file.lower().endswith(".csv"):
-            fpath = os.path.join(input_dir, file)
-            print(f"Reading {fpath}")
-            pdf = pd.read_csv(fpath)
-            pdf["SourceFile"] = file
-            match = re.search(r"(\d{4})", file)
-            pdf["Year"] = int(match.group(1)) if match else None
-            all_pdfs.append(pdf)
-
-    if not all_pdfs:
-        raise FileNotFoundError(f"No CSV files in {input_dir}")
-
-    combined_pdf = pd.concat(all_pdfs, ignore_index=True)
-
-    #  Schema definition
-    schema = StructType([
-        StructField("Country", StringType(), True),
-        StructField("Gold", IntegerType(), True),
-        StructField("Silver", IntegerType(), True),
-        StructField("Bronze", IntegerType(), True),
-        StructField("Total", IntegerType(), True),
-        StructField("SourceFile", StringType(), True),
-        StructField("Year", IntegerType(), True),
+# ----------------------------
+# Define schema for Olympics data
+# ----------------------------
+def olympics_schema():
+    """
+    Returns a StructType schema for Olympics dataset.
+    Ensures data types are consistent across all files.
+    """
+    return StructType([
+        StructField("countrycode", StringType(), True),   # 3-letter country/NOC code
+        StructField("Gold", IntegerType(), True),         # number of gold medals
+        StructField("Silver", IntegerType(), True),       # number of silver medals
+        StructField("Bronze", IntegerType(), True),       # number of bronze medals
+        StructField("Total", IntegerType(), True),        # total medals
+        StructField("Year", IntegerType(), True),         # extracted year from filename
     ])
 
-    #  Create Spark DataFrame
-    df = spark.createDataFrame(combined_pdf, schema=schema)
-    df = df.withColumn("Country", trim(df["Country"]))
+# ----------------------------
+# Read and combine all Olympics CSVs
+# ----------------------------
+def load_and_combine_csvs(input_dir):
+    """
+    Reads all CSV files from input_dir, adds 'Year' column
+    (extracted from filename), and returns a combined pandas DataFrame.
+    """
+    all_csvs = []
+    for file in os.listdir(input_dir):                      # iterate all files in input dir
+        if file.lower().endswith(".csv"):                   # process only CSV files
+            fpath = os.path.join(input_dir, file)           # build full path
+            print(f"Reading {fpath}")                       # log file being read
+            pdf = pd.read_csv(fpath)                        # load with pandas (fast for small CSVs)
+            match = re.search(r"(\d{4})", file)             # regex to extract year from filename
+            pdf["Year"] = int(match.group(1)) if match else None  # add Year column
+            all_csvs.append(pdf)                            # collect into list
 
-    #  Show ALL rows in DataFrame
-    print("\n=== All Data from CSVs ===")
+    if not all_csvs:                                        # no CSVs found
+        raise FileNotFoundError(f"No CSV files found in {input_dir}")
+
+    return pd.concat(all_csvs, ignore_index=True)           # combine all into single DataFrame
+
+# ----------------------------
+# Main Pipeline
+# ----------------------------
+def main():
+    # 1. Initialize Spark (reusable function from spark_utils)
+    spark = init_spark("OlympicsPipeline")
+
+    # 2. Define input and output paths
+    base_dir = r"C:\Users\Rupesh.shelar\data-engineer-test\datasets"
+    input_dir = os.path.join(base_dir, "olympics")
+    output_parquet = os.path.join(base_dir, "solution", "output", "olympics.parquet")
+    output_csv = os.path.join(base_dir, "solution", "output", "olympics.csv")
+    ensure_output_dir(output_parquet)                      # create dir if not exists
+
+    # 3. Load and combine CSVs into pandas DataFrame
+    combined_pdf = load_and_combine_csvs(input_dir)
+
+    # 4. Convert pandas DataFrame → Spark DataFrame with schema
+    df = spark.createDataFrame(combined_pdf, schema=olympics_schema())
+
+    # 5. Clean 'countrycode' column (remove spaces, normalize)
+    df = df.withColumn("countrycode", trim(df["countrycode"]))
+
+    # 6. Show full dataset in console
+    print("\n=== Olympics Data (Full) ===")
     df.show(df.count(), truncate=False)
 
-    #  Write to a SINGLE parquet file
-    df.coalesce(1).write.mode("overwrite").parquet(output_path)
-    print(f"\nOlympics dataset saved to {output_path} with {df.count()} rows (single file)")
+    # 7. Run reusable data quality checks (from data_utils)
+    data_quality_checks(df, key_columns=["countrycode", "Year"])
 
-    #  Read back Parquet and show ALL rows
-    print("\n=== All Data from Parquet Output ===")
-    df_parquet = spark.read.parquet(output_path)
-    df_parquet.show(df_parquet.count(), truncate=False)
+    # 8. Save outputs to both Parquet + CSV (from data_utils)
+    save_outputs(df, output_parquet, output_csv)
 
+    # 9. Validate saved outputs by reading back
+    print("\n=== Data from Parquet ===")
+    spark.read.parquet(output_parquet).show(truncate=False)
+
+    print("\n=== Data from CSV ===")
+    spark.read.option("header", True).csv(output_csv).show(truncate=False)
+
+    # 10. Stop Spark session cleanly
     spark.stop()
 
+# ----------------------------
+# Entry point
+# ----------------------------
 if __name__ == "__main__":
     main()
