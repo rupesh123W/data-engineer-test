@@ -1,151 +1,175 @@
-import os, re, shutil, uuid, pandas as pd
+import os
+import json
 from datetime import datetime
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import trim, upper, col
-from pyspark.sql.types import StructType, StructField, StringType, IntegerType
+from pyspark.sql.functions import col, trim, regexp_replace, isnan
+
+# ----------------------------
+# Load Config
+# ----------------------------
+def load_config(config_file="config.json"):
+    """
+    Load the configuration from a JSON file.
+    This helps keep configuration settings flexible and avoids hardcoding paths.
+    """
+    with open(config_file, 'r') as file:
+        return json.load(file)
+
+# Load configuration
+config = load_config()  # Adjust the config file path if necessary
+PROJECT_ROOT = config.get("PROJECT_ROOT")
+
+if PROJECT_ROOT is None:
+    raise ValueError("PROJECT_ROOT is not set in the config file")
+
+TODAY = datetime.today().strftime("%Y%m%d")
+
+# Directories for each layer (Bronze, Silver, Gold)
+BRONZE_DIR = os.path.join(PROJECT_ROOT, "datasets", "solution", "output", TODAY, "bronze")
+SILVER_DIR = os.path.join(PROJECT_ROOT, "datasets", "solution", "output", TODAY, "silver")
+GOLD_DIR = os.path.join(PROJECT_ROOT, "datasets", "solution", "output", TODAY, "gold")
+
+# Paths for Bronze Layer (CSV files only)
+BRONZE_OLYMPICS = os.path.join(BRONZE_DIR, "olympics", f"olympics_{TODAY}.csv")
+BRONZE_MAPPING = os.path.join(BRONZE_DIR, "mapping", f"mapping_{TODAY}.csv")
+BRONZE_COUNTRIES = os.path.join(BRONZE_DIR, "countries", f"countries_{TODAY}.csv")
+
+# ----------------------------
+# Silver Paths
+# ----------------------------
+SILVER_OUT = os.path.join(SILVER_DIR, f"olympics_country_mapping_{TODAY}.csv")
 
 # ----------------------------
 # Init Spark
 # ----------------------------
-def init_spark(app_name="CombinedPipeline"):
+def init_spark():
+    """
+    Initializes and returns a SparkSession.
+    This is where we configure the Spark session with necessary settings.
+    """
     return (
         SparkSession.builder
-        .appName(app_name)
+        .appName("Olympics-Data-Processing")
         .config("spark.hadoop.hadoop.native.io", "false")
         .config("spark.hadoop.fs.file.impl", "org.apache.hadoop.fs.RawLocalFileSystem")
         .getOrCreate()
     )
 
 # ----------------------------
-# Save helper (Parquet + CSV, with fixed naming)
+# Data Quality Checks (Silver Layer)
 # ----------------------------
-def save_outputs(df, output_parquet, output_csv, filename="output.csv"):
-    # Parquet
-    if os.path.exists(output_parquet):
-        shutil.rmtree(output_parquet, ignore_errors=True)
-    df.write.mode("overwrite").parquet(output_parquet)
-    print(f"[INFO] Saved Parquet: {output_parquet}")
+def data_quality_checks(df):
+    """
+    Perform data quality checks on the DataFrame (Silver Layer):
+    1. Null / blank values
+    2. Duplicates
+    3. Numeric validation
+    """
+    print("\n=== Data Quality Checks ===")
 
-    # CSV
-    temp_csv_dir = output_csv + "_tmp_" + str(uuid.uuid4()).replace("-", "")
-    df.coalesce(1).write.mode("overwrite").option("header", True).csv(temp_csv_dir)
-
-    csv_file = None
-    for f in os.listdir(temp_csv_dir):
-        if f.endswith(".csv"):
-            csv_file = os.path.join(temp_csv_dir, f)
-            break
-    if os.path.exists(output_csv):
-        shutil.rmtree(output_csv, ignore_errors=True)
-    os.makedirs(output_csv, exist_ok=True)
-    if csv_file:
-        final_csv = os.path.join(output_csv, filename)
-        shutil.move(csv_file, final_csv)
-        print(f"[INFO] Saved CSV: {final_csv}")
-    shutil.rmtree(temp_csv_dir, ignore_errors=True)
-
-# ----------------------------
-# Olympics schema
-# ----------------------------
-def olympics_schema():
-    return StructType([
-        StructField("countrycode", StringType(), True),
-        StructField("Gold", IntegerType(), True),
-        StructField("Silver", IntegerType(), True),
-        StructField("Bronze", IntegerType(), True),
-        StructField("Total", IntegerType(), True),
-        StructField("Year", IntegerType(), True),
-    ])
+    # 1. Null / blank values
+    for col_name, dtype in df.dtypes:
+        if dtype == "string":
+            null_count = df.filter(
+                (col(col_name).isNull()) | (trim(col(col_name)) == "")
+            ).count()
+            if null_count > 0:
+                print(f"[WARN] Column '{col_name}' has {null_count} null/blank values")
+    
+    # 2. Duplicate checks (based on countrycode and countryname)
+    dup_count = df.count() - df.distinct().count()
+    if dup_count > 0:
+        print(f"[WARN] Found {dup_count} duplicate rows based on countrycode and countryname")
+    
+    # 3. Numeric validation (example: check for non-numeric values in 'population')
+    numeric_cols = ["population"]  # Modify with actual numeric column names
+    for col_name in numeric_cols:
+        invalid_count = df.filter(isnan(col(col_name)) | col(col_name).isNull()).count()
+        if invalid_count > 0:
+            print(f"[WARN] Column '{col_name}' has {invalid_count} invalid numeric values")
 
 # ----------------------------
-# Main Combined Pipeline
+# Main
 # ----------------------------
 def main():
+    """
+    Main function to run the Spark job.
+    Handles loading data, applying transformations, and saving data in different layers.
+    """
     spark = init_spark()
-    today = datetime.today().strftime("%Y%m%d")
 
-    base_dir = r"C:\Users\Rupesh.shelar\data-engineer-test\datasets"
-    output_dir = os.path.join(base_dir, "solution", "output", today)
-    os.makedirs(output_dir, exist_ok=True)
+    # ----------------------------
+    # BRONZE LAYER (Just loading data)
+    # ----------------------------
+    print("===== BRONZE LAYER =====")
 
-    # -------- Bronze (Raw Layer) --------
-    # Countries raw
-    countries_raw = (
-        spark.read.option("header", True)
-        .option("inferSchema", True)
-        .csv(os.path.join(base_dir, "countries", "countries of the world.csv"))
+    # Step 1: Load Bronze data (Olympics, Mapping, Countries)
+    bronze_olympics = spark.read.option("header", "true").csv(BRONZE_OLYMPICS)
+    bronze_mapping = spark.read.option("header", "true").csv(BRONZE_MAPPING)
+    bronze_countries = spark.read.option("header", "true").csv(BRONZE_COUNTRIES)
+
+    print("Olympics rows (Bronze)  ->", bronze_olympics.count())
+    print("Mapping rows (Bronze)   ->", bronze_mapping.count())
+    print("Countries rows (Bronze) ->", bronze_countries.count())
+
+    # Step 2: Join Olympics with Mapping (NOC → countrycode)
+    olympics_with_code = bronze_olympics.join(
+        bronze_mapping,
+        bronze_olympics["NOC"] == bronze_mapping["countrycode"],  # Correct join condition
+        "left"
     )
-    save_outputs(countries_raw, os.path.join(output_dir, "bronze_countries_parquet"),
-                               os.path.join(output_dir, "bronze_countries_csv"),
-                               "countries_raw.csv")
 
-    # Olympics raw
-    pdfs = []
-    input_dir = os.path.join(base_dir, "olympics")
-    for file in os.listdir(input_dir):
-        if file.lower().endswith(".csv"):
-            pdf = pd.read_csv(os.path.join(input_dir, file))
-            match = re.search(r"(\d{4})", file)
-            pdf["Year"] = int(match.group(1)) if match else None
-            pdfs.append(pdf)
-    olympics_raw_pdf = pd.concat(pdfs, ignore_index=True)
-    olympics_raw = spark.createDataFrame(olympics_raw_pdf, schema=olympics_schema())
-    save_outputs(olympics_raw, os.path.join(output_dir, "bronze_olympics_parquet"),
-                               os.path.join(output_dir, "bronze_olympics_csv"),
-                               "olympics_raw.csv")
+    # Step 3: Join with Countries (countryname → Country)
+    olympics_country_mapping = olympics_with_code.join(
+        bronze_countries,
+        olympics_with_code["countryname"] == bronze_countries["Country"],
+        "left"
+    )
 
-    # ✅ FIXED: Country code mapping raw (from CSV instead of pycountry)
-    mapping_file = os.path.join(base_dir, "country_code_mapping", "country_code_mapping.csv")
-    if os.path.exists(mapping_file):
-        mapping_raw = spark.read.option("header", True).csv(mapping_file)
-    else:
-        # fallback empty DataFrame if file missing
-        mapping_raw = spark.createDataFrame([], "countrycode STRING, countryname STRING")
+    # Step 4: Select only the desired columns (countrycode and countryname)
+    final_bronze = olympics_country_mapping.select("countrycode", "countryname", "year")
 
-    save_outputs(mapping_raw, os.path.join(output_dir, "bronze_mapping_parquet"),
-                                os.path.join(output_dir, "bronze_mapping_csv"),
-                                "mapping_raw.csv")
+    # Step 5: Save Bronze output (CSV only)
+    final_bronze.write.mode("overwrite").option("header", True).csv(BRONZE_DIR)
 
-    # -------- Silver (Staged Layer) --------
-    # Clean Olympics
-    olympics_silver = olympics_raw.withColumn("countrycode", trim(col("countrycode")))
-    save_outputs(olympics_silver, os.path.join(output_dir, "silver_olympics_parquet"),
-                                   os.path.join(output_dir, "silver_olympics_csv"),
-                                   "olympics_silver.csv")
+    print(f"[BRONZE] Saved country mapping data -> {BRONZE_DIR}")
 
-    # Clean Mapping
-    mapping_silver = mapping_raw.withColumn("countrycode", upper(trim(col("countrycode")))) \
-                                .withColumn("countryname", trim(col("countryname")))
-    save_outputs(mapping_silver, os.path.join(output_dir, "silver_mapping_parquet"),
-                                    os.path.join(output_dir, "silver_mapping_csv"),
-                                    "mapping_silver.csv")
+    # ----------------------------
+    # SILVER LAYER (Apply cleaning and quality checks)
+    # ----------------------------
+    print("===== SILVER LAYER =====")
 
-    # Clean Countries
-    countries_silver = countries_raw
-    for old in countries_silver.columns:
-        new = old.strip().lower().replace(" ", "_").replace("%", "percent").replace("$", "usd")
-        countries_silver = countries_silver.withColumnRenamed(old, new)
-    countries_silver = countries_silver.withColumn("countryname", trim(col("country")))
-    save_outputs(countries_silver, os.path.join(output_dir, "silver_countries_parquet"),
-                                      os.path.join(output_dir, "silver_countries_csv"),
-                                      "countries_silver.csv")
+    # Step 6: Clean Column Names for Silver Layer (Remove special characters)
+    silver_data = final_bronze.select([regexp_replace(col(c), "[^a-zA-Z0-9_]", "_").alias(c) for c in final_bronze.columns])
 
-    # -------- Gold (Curated Layer) --------
-    # Join Olympics + Mapping (to get full country names)
-    curated = olympics_silver.join(mapping_silver, "countrycode", "inner")
-    # Aggregate medals per country
-    curated_final = curated.groupBy("countryname") \
-        .agg({"Gold": "sum", "Silver": "sum", "Bronze": "sum", "Total": "sum"}) \
-        .withColumnRenamed("sum(Gold)", "total_gold") \
-        .withColumnRenamed("sum(Silver)", "total_silver") \
-        .withColumnRenamed("sum(Bronze)", "total_bronze") \
-        .withColumnRenamed("sum(Total)", "total_medals")
+    # Step 7: Trim whitespace from all columns in Silver Layer
+    silver_data = silver_data.select([trim(col(c)).alias(c) for c in silver_data.columns])
 
-    save_outputs(curated_final, os.path.join(output_dir, "gold_curated_parquet"),
-                                    os.path.join(output_dir, "gold_curated_csv"),
-                                    "curated_gold.csv")
+    # Step 8: Sort Silver data by year
+    silver_data_sorted = silver_data.orderBy("year")
 
-    print(f"✅ Combined pipeline completed. Outputs stored under {output_dir}")
+    # Step 9: Perform Data Quality Checks on Silver data
+    data_quality_checks(silver_data_sorted)
+
+    # Step 10: Save Silver output (CSV only)
+    silver_data_sorted.write.mode("overwrite").option("header", True).csv(SILVER_OUT)
+
+    print(f"[SILVER] Saved country mapping data -> {SILVER_OUT}")
+
+    # ----------------------------
+    # GOLD LAYER
+    # ----------------------------
+    print("===== GOLD LAYER =====")
+
+    # Step 11: Save Gold output (CSV only)
+    gold_output_path = os.path.join(GOLD_DIR, f"olympics_country_mapping_gold_{TODAY}.csv")
+    silver_data_sorted.write.mode("overwrite").option("header", True).csv(gold_output_path)
+
+    print(f"[GOLD] Saved final gold data -> {gold_output_path}")
+
+    # Step 12: Show preview of Gold data
+    silver_data_sorted.show(10, truncate=False)
+
     spark.stop()
 
 if __name__ == "__main__":
